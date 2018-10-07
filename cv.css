@@ -1,24 +1,15 @@
 
 .header{
-    display: flex;
-    justify-content: space-between;
-    background-color: #2E2C2F;
-    color: #C3B7BC;
-    text-transform: uppercase;
-    border-bottom: 3px solid #989788;
-    list-style: none;
-    margin: 0px 0px;
-    padding: 10px 150px;
+    color: #2E2C2F;
+    background-color: #C3B7BC;
 }
 body{
    background-color: #E6E6E6
 }
-.content{
-    margin: 60px auto;
-    width: 60%;
-    min-width: 250px;
+.nav-link img {
+    width: 30px;
 }
-.title{
-    margin-left: -7px;
-    font-size: 1.5em
+
+.card{
+    margin: 10px 0;
 }
