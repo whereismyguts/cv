@@ -1,15 +1,19 @@
 
-.header{
-    color: #2E2C2F;
-    background-color: #C3B7BC;
-}
 body{
-   background-color: #E6E6E6
-}
-.nav-link img {
-    width: 30px;
+   background-color: #fefefe;
+   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+.list-group-item{
+    font-size: 10px;
+}
+a img {
+    width: 25px;
+    margin-right: 10px;
+}
 .card{
     margin: 10px 0;
+}
+.navbar-collapse{
+    min-width: 250px !important;
 }
