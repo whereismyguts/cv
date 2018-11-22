@@ -3,23 +3,23 @@ body{
    background-color: #fefefe;
    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
+h2{
+    font-size: 1.7rem;
+}
 .card, .card-header:first-child{
 	border-radius: 0
 }
 .list-group-item{
     font-size: 10px;
 }
-.navbar-toggler collapsed{
-
-}
 .navbar-toggler{
-    width: 50px;
+    width: 64px;
     height: 50px;
     padding: 0;
-    border:none;
-	position: absolute;
-	right: 0px;
-	top: 0px;
+    border: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }
 .navbar-toggler img{
     width: 100%;
@@ -45,4 +45,76 @@ a img {
 input[type="radio"]:checked+label { 
     border: 3px solid #999;
     color: #333;
-    font-weight: bold; }
+    font-weight: bold; 
+}
+input[type=checkbox] {
+    display:none;
+}
+input[type=checkbox] + label {
+    transition: 0.3s;
+    background-color: #fff;
+}
+input[type=checkbox] + label::before {
+    content: "";
+    position: relative;
+    background: #777;
+    height: 100%;
+    display: block;
+    width: 50%;
+    transition: ease-out 0.2s;
+    left: 0;
+}
+input[type=checkbox]:checked + label::before {
+    left: 50%;
+    transition:  ease-out 0.2s;
+}
+input[type=checkbox] + label::after {
+    content: "RU EN"; 
+    word-spacing: 7px;
+    color: #bbb; 
+    font-weight: bolder;
+    left:5px; 
+    top:6px;
+    position: absolute;
+    transition: 0.6s;
+}
+input[type=checkbox]:checked + label{
+    transition: 0.6s;
+}
+label[for=checkbox]{
+    height: 34px;
+    width: 64px;
+    padding: 0 0 0 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 2px solid #333;
+}
+.language{
+    position: fixed;
+    top:24;
+    right: 10;
+    z-index: 1;
+}
+.navbar{
+    min-width: 280px;
+}
+@media (max-width: 768px) {
+    .navbar{
+        right: 10px;
+        top: 48px;
+        padding: 10px;
+        z-index: 1;
+        position: fixed;
+    }
+    .navbar-nav {
+        background: #fff;
+        padding: 10px;
+        margin-top: 65px;
+        box-shadow: 0 0 3px 1px #333;
+        right: -10px;
+    }
+}
+ul {
+    list-style: none;
+    padding-left: 0;
+}

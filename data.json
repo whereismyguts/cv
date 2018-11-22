@@ -34,50 +34,53 @@
                "REST",
                "SOAP"
             ],
-            "date":"май 2015 – июль 2016",
+            "date":"may 2015 – july 2016",
             "body":[  
-               "Разработка и поддержка компонентов под WPF и WinForms, в частности — компонента для работы с картами.",
-               "Работа в технической поддержке, процессинг тикетов и баг-репортов, консультация пользователей."
+               "Maps and charts .NET UI controls development. (.NET, WPF, WinForms)",
+               "Tech support"
             ]
          },
          {  
-            "title":"ЗАО \"Стальинвест\"",
-            "position":"инженер-программист",
+            "title":"SteelInvest CJSC",
+            "position":"Software development engineer",
             "stack":[  
                ".NET",
                "C#",
                "WinForms",
-               "TeklaStructures"
+               "TeklaStructures",
+				"MS Access SQL"
             ],
-            "date":"август 2013 - апрель 2015",
+            "date":"august 2013 - april 2015",
             "body":[  
-               "Инженерный центр, Отдел типовых решений и инновационных разработок.",
-               "Проектирование, разработка и поддержка плагинов, макросов и приложений для Tekla Structures, десктопных приложений для инженерных расчетов, статистики, тайм-менеджмента, учета премий и прочих задач.",
-               "Обучение пользователей и поддержка разработанных продуктов."
+			   "Example projects, developed all alone for internal usage:",
+               "Macros, plugins and applications for CAD-system Tekla Structures using TeklaStructures API and .Net platform.",
+               "Internal time managment system. Gathering, processing and easy representation of information about the employees, delays, premium, payment, etc.",
+			   "Steel resources managment system. Various calculation for optimal using, wasting and recycling metal"
             ]
          },
          {  
-            "title":"Тулаэлектропривод",
-            "position":"технолог-программист",
+            "title":"Tulaelectroprivod JSC",
+            "position":"CNC development engineer",
             "stack":[  
                "G-code",
-               "management"
+               "tech management"
             ],
-            "date":"февраль 2013 - июль 2013",
+            "date":"february 2013 - july 2013",
             "body":[  
-               "Разработка и сопровождение техпроцессов и программ для станков с ЧПУ"
+               "Steelwork industry processing",
+			   "CNC machine tools programming"
             ]
          }
       ],
       "headers":[  
-         "Опыт работы",
-         "Навыки",
-         "Языки",
-         "Образование"
+         "Work expierence",
+         "Skills",
+         "Languages",
+         "Education"
       ],
       "skills":{  
          "advanced":{  
-            "title":"Продвинутый",
+            "title":"Advanced",
             "list":[  
                "Python 2.7/3.6",
                "Django",
@@ -89,7 +92,7 @@
             ]
          },
          "intermediate":{  
-            "title":"Средний",
+            "title":"Intermediate",
             "list":[  
                "JQuery",
                "Docker",
@@ -98,7 +101,7 @@
             ]
          },
          "applied":{  
-            "title":"Средний",
+            "title":"Applied",
             "list":[  
                "Vue.js",
                "pygame",
@@ -109,8 +112,8 @@
          }
       },
       "education":{  
-         "title":"Тульский Государственный Университет (2008–2012)",
-         "description":"Политехнический институт, Механико-технологический факультет, Автоматизированные станочные системы, инженер по специальности САПР "
+         "title":"2008–2012 Tula State University, ",
+         "description":"CAD engineer"
       }
    },
    "ru":{  

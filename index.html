@@ -1,5 +1,5 @@
 <head>
-  
+
   <meta charset="utf-8">
   <title>Anton Karmanov. Developer resume</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -22,17 +22,18 @@
         <h5>Software developer</h5>
       </div>
 
-      <div class="col-sm-4">
+      <div class="col-sm-4" style="user-select: none;">
 
-      <input type="checkbox" id="checkbox" v-model="locale_index" @change="toggleLocale">
-      <label for="checkbox">{{ locale_index }}</label> 
+        <div class="language">
+          <input type="checkbox" id="checkbox" v-model="locale_index" @change="toggleLocale">
+          <label for="checkbox"></label>
+        </div>
 
         <nav class="navbar navbar-expand-md navbar-light  float-right p-0">
-          <span class="navbar-toggler"  data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle contacts">
-            
+          <span class="navbar-toggler" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01"
+            aria-expanded="false" aria-label="Toggle contacts">
+
             <img src="svg/card.svg">
-            <!-- <span class="navbar-toggler-icon"></span> -->
           </span>
           <div class="collapse navbar-collapse float-right" id="navbarTogglerDemo01">
             <ul class="navbar-nav nav">
@@ -42,28 +43,21 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://t.me/whereismyguts"><img src="svg/tg.svg">
-                  t.me/whereismyguts</a>
+                <a class="nav-link" href="https://github.com/whereismyguts"><img src="svg/gh.svg">
+                  github.com/whereismyguts</a>
               </li>
-
               <li class="nav-item">
                 <a class="nav-link" href="https://www.linkedin.com/in/anton-karmanov-3315a312b/"><img src="svg/link.svg">
                   Anton Karmanov</a>
-
               </li>
-
+              <li class="nav-item">
+                <a class="nav-link" href="https://t.me/whereismyguts"><img src="svg/tg.svg">
+                  t.me/whereismyguts</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" href="mailto:whereismyguts@gmail.com"><img src="svg/mail.svg">
                   whereismyguts@gmail.com</a>
-
               </li>
-
-              <li class="nav-item">
-                <a class="nav-link" href="https://github.com/whereismyguts"><img src="svg/gh.svg">
-                  github.com/whereismyguts</a>
-
-              </li>
-
               <li class="nav-item">
                 <a class="nav-link" href="tel:+7(903)842-52-44"><img src="svg/phone.svg"> +7(903)842-52-44</a>
               </li>
@@ -72,6 +66,7 @@
         </nav>
       </div>
     </div>
+
     <div class="row" style="margin-top: 50px">
       <div class="col-lg-8">
         <h4>{{data.headers[0]}}</h4>
@@ -138,29 +133,78 @@
         <a title="my artworks" href="http://whereismyguts.blogspot.com/?view=flipcard"><img src="art.jpg" style="width:100%"></a>
       </div>
     </div>
+
+    <div class="row" style="margin-top: 30px;">
+      <div class="col-sm-6">
+        <ul class="">
+          <li>
+            <a href="resume.pdf">
+              <img src="svg/cv.svg"> download resume
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/whereismyguts"><img src="svg/gh.svg">
+              github.com/whereismyguts</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/anton-karmanov-3315a312b/"><img src="svg/link.svg">
+              Anton Karmanov</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <ul>
+          <li>
+            <a href="mailto:whereismyguts@gmail.com"><img src="svg/mail.svg">
+              whereismyguts@gmail.com</a>
+
+          </li>
+          <li>
+            <a href="https://t.me/whereismyguts"><img src="svg/tg.svg">
+              t.me/whereismyguts</a>
+          </li>
+
+
+          <li>
+            <a href="tel:+7(903)842-52-44"><img src="svg/phone.svg"> +7(903)842-52-44</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 
   <script>
     var App = new Vue({
       el: '#app',
       data: {
-        data: [],
-        doc:[],
+        data: {
+          headers: [],
+          skills: {
+            advanced: [],
+            intermediate: [],
+            applied: []
+          },
+          education: [],
+          jobs: [],
+        },
+        doc: [],
         locale_index: true
       },
       mounted() {
         var self = this;
-          $.getJSON('http://api.jsonbin.io/b/5bf56501746e9b593ec0e909/1', function (data) {
-            self.doc = {
-              'true': data.en,
-              'false': data.ru
-            }
-            self.toggleLocale()
+        $.getJSON('https://api.jsonbin.io/b/5bf56501746e9b593ec0e909/2', function (data) {
+          self.doc = {
+            'true': data.en,
+            'false': data.ru
+          }
+          self.toggleLocale();
         });
       },
       methods: {
         toggleLocale() {
-          this.data = this.doc[this.locale_index]
+          if (this.doc) {
+            this.data = this.doc[this.locale_index];
+          }
         }
       }
     })
@@ -171,5 +215,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script> 
+    crossorigin="anonymous"></script>
 </body>
