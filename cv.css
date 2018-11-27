@@ -118,3 +118,18 @@ ul {
     list-style: none;
     padding-left: 0;
 }
+
+.link-container{
+    display:flex; 
+    flex-wrap: wrap;
+     justify-content:space-between; 
+    width: 100%;    
+    margin-top: 50px;
+}
+.link-container a{
+    font-size: 12px;
+    border-radius: 3px;
+    padding: 5px 5px;
+    color: #000;
+    text-decoration: none;
+}
