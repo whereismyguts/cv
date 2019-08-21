@@ -44,7 +44,7 @@
         <h2>{{ data.name }}</h2>
         <h5>Software developer</h5>
         <div class="link-container">
-            <a href="resume.pdf"> <img src="svg/cv.svg" />resume</a>
+            <a v-bind:href="data.resume_name"> <img src="svg/cv.svg" />resume</a>
             <a href="https://github.com/whereismyguts">
               <img src="svg/gh.svg" />github.com/whereismyguts</a>
   
@@ -91,7 +91,9 @@
         </div>
       </div>
       <div class="col-lg-4" style="font-size: 14px">
-        <h4>{{ data.headers[1] }}</h4>
+        
+		<h4>{{ data.headers[1] }}</h4>
+		<img src="python.png" style="width:100%"/>
         <div class="card">
           <div class="card-header bg-success ">
             {{ data.skills.advanced.title }}
@@ -131,11 +133,6 @@
             <p>{{ data.education.description }}</p>
           </div>
         </div>
-        <a
-          title="my artworks"
-          href="http://whereismyguts.blogspot.com/?view=flipcard"
-          ><img src="art.jpg" style="width:100%"
-        /></a>
       </div>
     </div>
 
@@ -143,7 +140,7 @@
       <div class="col-sm-6">
         <ul class="">
           <li>
-            <a href="resume.pdf"> <img src="svg/cv.svg" /> download resume </a>
+            <a v-bind:href="data.resume_name"> <img src="svg/cv.svg" /> download resume </a>
           </li>
           <li>
             <a href="https://github.com/whereismyguts"
@@ -200,7 +197,7 @@
       mounted() {
         var self = this;
         $.getJSON(
-          "https://api.jsonbin.io/b/5bf56501746e9b593ec0e909/3",
+          "https://api.jsonbin.io/b/5bf56501746e9b593ec0e909/6",
           function(data) {
             self.doc = {
               true: data.en,

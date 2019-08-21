@@ -1,10 +1,20 @@
 
 body{
    background-color: #fefefe;
-   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+   /*font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif*/
 }
 h2{
     font-size: 1.7rem;
+}
+.bottom-to-top {
+
+  border-width: 0 3px 0 0;
+  border-style: solid;
+  -webkit-border-image: -webkit-gradient(linear, 0 100%, 0 0, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+  -webkit-border-image: -webkit-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+  -moz-border-image: -moz-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+  -o-border-image: -o-linear-gradient(bottom, black, rgba(0, 0, 0, 0)) 1 100%;
+  border-image: linear-gradient(to top, black, rgba(0, 0, 0, 0)) 1 100%;
 }
 .card, .card-header:first-child{
 	border-radius: 0
