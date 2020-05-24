@@ -197,7 +197,10 @@
       mounted() {
         var self = this;
         $.getJSON(
-          "https://api.jsonbin.io/b/5bf56501746e9b593ec0e909/6",
+          // "https://api.jsonbin.io/b/5bf56501746e9b593ec0e909/6",
+          'https://raw.githubusercontent.com/whereismyguts/cv/master/data.json',
+          // 'http://localhost:8000/data.json',
+          
           function(data) {
             self.doc = {
               true: data.en,
