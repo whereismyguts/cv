@@ -1,256 +1,268 @@
 {
-   "ru": {
-     "resume_name": "resume.pdf",
-     "education": {
-       "description": "Политехнический институт, Механико-технологический факультет, Автоматизированные станочные системы, инженер по специальности САПР ",
-       "title": "Тульский Государственный Университет (2008–2012)"
-     },
-     "skills": {
-       "applied": {
-         "list": [
-           "Vue.js",
-           "pygame",
-           "monogame",
-           "MongoDB",
-           "WPF"
-         ],
-         "title": "Применялось"
-       },
-       "intermediate": {
-         "list": [
-           "JQuery",
-           "Docker",
-           "PostgreSQL",
-           "Bootstrap"
-         ],
-         "title": "Средний"
-       },
-       "advanced": {
-         "list": [
-           "Python 2.7/3.6",
-           "Django",
-           "C#",
-           "ASP.NET MVC",
-           "FirebirdSQL",
-           "HTML, CSS",
-           "git"
-         ],
-         "title": "Продвинутый"
-       }
-     },
-     "headers": [
-       "Опыт работы",
-       "Навыки",
-       "Языки",
-       "Образование"
-     ],
-     "jobs": [
-       {
-         "body": [
-           "Десктоп-клиент системы контроля доступа (PyQT, Python2.7)",
-           "Серверная часть системы контроля доступа (Django, PostgreSQL django-rest, docker)",
-           "Веб-приложение системы контроля доступа (ASP.Net MVC, JQuery, Firebird SQL, IIS)"
-         ],
-         "date": "август 2016 – настоящее время",
-         "stack": [
-           "Python",
-           "Django",
-           ".NET",
-           "C#",
-           "REST",
-           "PostgreSQL",
-           "FirebirdSQL",
-           "C++"
-         ],
-         "position": "инженер-программист",
-         "title": "Альфа-Прибор"
-       },
-       {
-         "body": [
-           "Разработка и поддержка компонентов под WPF и WinForms, в частности — компонента для работы с картами.",
-           "Работа в технической поддержке, процессинг тикетов и баг-репортов, консультация пользователей."
-         ],
-         "date": "май 2015 – июль 2016",
-         "stack": [
-           ".NET",
-           "C#",
-           "WinForms",
-           "WPF",
-           "REST",
-           "SOAP"
-         ],
-         "position": "инженер-программист",
-         "title": "DevExpress"
-       },
-       {
-         "body": [
-           "Инженерный центр, Отдел типовых решений и инновационных разработок.",
-           "Проектирование, разработка и поддержка плагинов, макросов и приложений для Tekla Structures, десктопных приложений для инженерных расчетов, статистики, тайм-менеджмента, учета премий и прочих задач.",
-           "Обучение пользователей и поддержка разработанных продуктов."
-         ],
-         "date": "август 2013 - апрель 2015",
-         "stack": [
-           ".NET",
-           "C#",
-           "WinForms",
-           "TeklaStructures"
-         ],
-         "position": "инженер-программист",
-         "title": "ЗАО \"Стальинвест\""
-       },
-       {
-         "body": [
-           "Разработка и сопровождение техпроцессов и программ для станков с ЧПУ"
-         ],
-         "date": "февраль 2013 - июль 2013",
-         "stack": [
-           "G-code",
-           "management"
-         ],
-         "position": "технолог-программист",
-         "title": "Тулаэлектропривод"
-       }
-     ],
-     "name": "Антон Карманов"
-   },
-   "en": {
-     "resume_name": "404.html",
-     "education": {
-       "description": "CAD engineer",
-       "title": "2008–2012 Tula State University, "
-     },
-     "skills": {
-       "applied": {
-         "list": [
-           "WPF"
-         ],
-         "title": "Applied"
-       },
-       "intermediate": {
-         "list": [
-           "MongoDB",
-           "C#",
-           "ASP.NET MVC",
-           "JQuery",
-           "Docker",
-           "PostgreSQL"
-         ],
-         "title": "Intermediate"
-       },
-       "advanced": {
-         "list": [
-           "Python 2.7/3.6",
-           "tornado",
-           "Django",
-           "git",
-           "Bootstrap",
-           "vue.js",
-           "FirebirdSQL",
-           "HTML, CSS",
-           "bash"
-         ],
-         "title": "Advanced"
-       }
-     },
-     "headers": [
-       "Work expierence",
-       "Skills",
-       "Languages",
-       "Education"
-     ],
-     "jobs": [
-       {
-         "body": [
-           "Backend development, client supporting",
-           "Projects: back-end for CMSs, CRMs, mobile apps, public APIs",
-           "Wide use of linux systems",
-           "P.S. I've reached a noticeable level of such as good skill as time management."
-         ],
-         "date": "december 2018 – c.t.",
-         "stack": [
-           "Python 2",
-           "Python 3",
-           "tornado",
-           "git",
-           "sqlalchemy",
-           "PostgreSQL",
-           "linux",
-           "bash"
-         ],
-         "position": "back-end developer",
-         "title": "Q-Studio"
-       },
-       {
-         "body": [
-           "Access control system components:",
-           "Desktop client ACS management app(PyQT, Python2.7)",
-           "Backend server (Django, PostgreSQL django-rest, docker)",
-           "Web application (ASP.Net MVC, JQuery, Firebird SQL, IIS)"
-         ],
-         "date": "august 2016 – november 2018",
-         "stack": [
-           "Python",
-           "Django",
-           ".NET",
-           "C#",
-           "REST",
-           "PostgreSQL",
-           "FirebirdSQL",
-           "git",
-           "C++"
-         ],
-         "position": "Fullstack development engineer",
-         "title": "Alpha-Pribor JSC"
-       },
-       {
-         "body": [
-           "Maps and charts .NET UI controls development. (.NET, WPF, WinForms)",
-           "Tech support"
-         ],
-         "date": "may 2015 – july 2016",
-         "stack": [
-           ".NET",
-           "C#",
-           "WinForms",
-           "WPF",
-           "REST",
-           "SOAP"
-         ],
-         "position": "Software development engineer",
-         "title": "DevExpress"
-       },
-       {
-         "body": [
-           "Example projects, developed all alone for internal usage:",
-           "Macros, plugins and applications for CAD-system Tekla Structures using TeklaStructures API and .Net platform.",
-           "Internal time managment system. Gathering, processing and easy representation of information about the employees, delays, premium, payment, etc.",
-           "Steel resources managment system. Various calculation for optimal using, wasting and recycling metal"
-         ],
-         "date": "august 2013 – april 2015",
-         "stack": [
-           ".NET",
-           "C#",
-           "WinForms",
-           "TeklaStructures",
-           "MS Access SQL"
-         ],
-         "position": "Software development engineer",
-         "title": "SteelInvest CJSC"
-       },
-       {
-         "body": [
-           "Steelwork industry processing",
-           "CNC machine tools programming"
-         ],
-         "date": "february 2013 – july 2013",
-         "stack": [
-           "G-code",
-           "tech management"
-         ],
-         "position": "CNC development engineer",
-         "title": "Tulaelectroprivod JSC"
-       }
-     ],
-     "name": "Anton Karmanov"
-   }
- }
+    "ru": {
+        "resume_name": "resume.pdf",
+        "education": {
+            "description": "Политехнический институт, Механико-технологический факультет, Автоматизированные станочные системы, инженер по специальности САПР ",
+            "title": "Тульский Государственный Университет (2008–2012)"
+        },
+        "skills": {
+            "applied": {
+                "list": [
+                    "Vue.js",
+                    "pygame",
+                    "monogame",
+                    "MongoDB",
+                    "WPF"
+                ],
+                "title": "Применялось"
+            },
+            "intermediate": {
+                "list": [
+                    "JQuery",
+                    "Docker",
+                    "PostgreSQL",
+                    "Bootstrap"
+                ],
+                "title": "Средний"
+            },
+            "advanced": {
+                "list": [
+                    "Python 2.7/3.6",
+                    "Django",
+                    "C#",
+                    "ASP.NET MVC",
+                    "FirebirdSQL",
+                    "HTML, CSS",
+                    "git"
+                ],
+                "title": "Продвинутый"
+            }
+        },
+        "headers": [
+            "Опыт работы",
+            "Навыки",
+            "Языки",
+            "Образование"
+        ],
+        "jobs": [{
+                "body": [
+                    "Десктоп-клиент системы контроля доступа (PyQT, Python2.7)",
+                    "Серверная часть системы контроля доступа (Django, PostgreSQL django-rest, docker)",
+                    "Веб-приложение системы контроля доступа (ASP.Net MVC, JQuery, Firebird SQL, IIS)"
+                ],
+                "date": "август 2016 – настоящее время",
+                "stack": [
+                    "Python",
+                    "Django",
+                    ".NET",
+                    "C#",
+                    "REST",
+                    "PostgreSQL",
+                    "FirebirdSQL",
+                    "C++"
+                ],
+                "position": "инженер-программист",
+                "title": "Альфа-Прибор"
+            },
+            {
+                "body": [
+                    "Разработка и поддержка компонентов под WPF и WinForms, в частности — компонента для работы с картами.",
+                    "Работа в технической поддержке, процессинг тикетов и баг-репортов, консультация пользователей."
+                ],
+                "date": "май 2015 – июль 2016",
+                "stack": [
+                    ".NET",
+                    "C#",
+                    "WinForms",
+                    "WPF",
+                    "REST",
+                    "SOAP"
+                ],
+                "position": "инженер-программист",
+                "title": "DevExpress"
+            },
+            {
+                "body": [
+                    "Инженерный центр, Отдел типовых решений и инновационных разработок.",
+                    "Проектирование, разработка и поддержка плагинов, макросов и приложений для Tekla Structures, десктопных приложений для инженерных расчетов, статистики, тайм-менеджмента, учета премий и прочих задач.",
+                    "Обучение пользователей и поддержка разработанных продуктов."
+                ],
+                "date": "август 2013 - апрель 2015",
+                "stack": [
+                    ".NET",
+                    "C#",
+                    "WinForms",
+                    "TeklaStructures"
+                ],
+                "position": "инженер-программист",
+                "title": "ЗАО \"Стальинвест\""
+            },
+            {
+                "body": [
+                    "Разработка и сопровождение техпроцессов и программ для станков с ЧПУ"
+                ],
+                "date": "февраль 2013 - июль 2013",
+                "stack": [
+                    "G-code",
+                    "management"
+                ],
+                "position": "технолог-программист",
+                "title": "Тулаэлектропривод"
+            }
+        ],
+        "name": "Антон Карманов"
+    },
+    "en": {
+        "resume_name": "404.html",
+        "education": {
+            "description": "CAD engineer",
+            "title": "2008–2012 Tula State University, "
+        },
+        "skills": {
+            "applied": {
+                "list": [
+                    "WPF"
+                ],
+                "title": "Applied"
+            },
+            "intermediate": {
+                "list": [
+                    "TensorFlow",
+                    "C#",
+                    "ASP.NET MVC",
+                    "JQuery",
+                    "Docker"
+                ],
+                "title": "Intermediate"
+            },
+            "advanced": {
+                "list": [
+                    "Python",
+                    "tornado",
+                    "Django",
+                    "fastapi",
+                    "MongoDB",
+                    "PostgreSQL",
+                    "git",
+                    "Bootstrap",
+                    "vue.js",
+                    "FirebirdSQL",
+                    "HTML, CSS",
+                    "bash"
+                ],
+                "title": "Advanced"
+            }
+        },
+        "headers": [
+            "Work expierence",
+            "Skills",
+            "Languages",
+            "Education"
+        ],
+        "jobs": [{
+                "body": [
+                    "Backend, tech support",
+                    "Projects&tasks: ",
+                    " - back-end for CMSs, CRMs, mobile apps, public APIs",
+                    " - finacial operations including crypto/fiat exchange",
+                    " - medium complexity frontend tasks (html, css, js, jue, UI design)",
+                    " - automated social media management",
+                    " - self-hosted chat bots for Telegram",
+                    " - web-scraping",
+                    " - training of image classification models",
+                    " - devOps such as docker/nginx tuning",
+                    " - wide use of linux systems",
+                    " - data analysis/building reports"
+                ],
+                "date": "december 2018 – c.t.",
+                "stack": [
+                    "Python 2",
+                    "Python 3",
+                    "TensorFlow",
+                    "docker", "nginx", "MongoDB",
+                    "tornado",
+                    "fastapi",
+                    "git",
+                    "sqlalchemy",
+                    "PostgreSQL",
+                    "linux",
+                    "bash",
+                    "vue.js"
+                ],
+                "position": "Software/data engineer",
+                "title": "Freelancer"
+            },
+            {
+                "body": [
+                    "Access control system components:",
+                    "Desktop client ACS management app(PyQT, Python2.7)",
+                    "Backend server (Django, PostgreSQL django-rest, docker)",
+                    "Web application (ASP.Net MVC, JQuery, Firebird SQL, IIS)"
+                ],
+                "date": "august 2016 – november 2018",
+                "stack": [
+                    "Python",
+                    "Django",
+                    ".NET",
+                    "C#",
+                    "REST",
+                    "PostgreSQL",
+                    "FirebirdSQL",
+                    "git",
+                    "C++"
+                ],
+                "position": "Fullstack development engineer",
+                "title": "Alpha-Pribor JSC"
+            },
+            {
+                "body": [
+                    "Maps and charts .NET UI controls development. (.NET, WPF, WinForms)",
+                    "Tech support"
+                ],
+                "date": "may 2015 – july 2016",
+                "stack": [
+                    ".NET",
+                    "C#",
+                    "WinForms",
+                    "WPF",
+                    "REST",
+                    "SOAP"
+                ],
+                "position": "Software development engineer",
+                "title": "DevExpress"
+            },
+            {
+                "body": [
+                    "Example projects, developed all alone for internal usage:",
+                    "Macros, plugins and applications for CAD-system Tekla Structures using TeklaStructures API and .Net platform.",
+                    "Internal time managment system. Gathering, processing and easy representation of information about the employees, delays, premium, payment, etc.",
+                    "Steel resources managment system. Various calculation for optimal using, wasting and recycling metal"
+                ],
+                "date": "august 2013 – april 2015",
+                "stack": [
+                    ".NET",
+                    "C#",
+                    "WinForms",
+                    "TeklaStructures",
+                    "MS Access SQL"
+                ],
+                "position": "Software development engineer",
+                "title": "SteelInvest CJSC"
+            },
+            {
+                "body": [
+                    "Steelwork industry processing",
+                    "CNC machine tools programming"
+                ],
+                "date": "february 2013 – july 2013",
+                "stack": [
+                    "G-code",
+                    "tech management"
+                ],
+                "position": "CNC development engineer",
+                "title": "Tulaelectroprivod JSC"
+            }
+        ],
+        "name": "Anton Karmanov"
+    }
+}
