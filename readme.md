@@ -1,0 +1,4 @@
+### debug
+
+`python static.py ./`
+
