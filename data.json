@@ -39,15 +39,15 @@
           "\uD83D\uDFE3 Разработка и сопровождение API",
           "\uD83D\uDFE3 Облачная интеграция/развертывание",
           "\uD83D\uDFE3 Финансовые операции включая криптовалютные/фиатные обмены",
-          "\uD83D\uDFE3 Средне сложные задачи фронтенда(html, css, js, jue, UI дизайн)",
-          "\uD83D\uDFE3 Автоматизация SMM(например, twitter API)",
+          "\uD83D\uDFE3 Задачи фронтенда (html, css, js, UI дизайн)",
+          "\uD83D\uDFE3 Автоматизация SMM (например, twitter API)",
           "\uD83D\uDFE3 Чат боты",
           "\uD83D\uDFE3 Веб-скрапинг",
           "\uD83D\uDFE3 Обучение моделей классификации изображений",
-          "\uD83D\uDFE3 Развертвание с использованием docker/nginx",
+          "\uD83D\uDFE3 Развертывание с использованием docker/nginx",
           "\uD83D\uDFE3 Широкое использование linux систем(Ubuntu, CentOS)",
           "\uD83D\uDFE3 Анализ данных/сбор отчетов (PostgreSQL)",
-          "\uD83D\uDFE3 Разработка, верстка мобильных приложений(React Native)"
+          "\uD83D\uDFE3 Разработка, верстка мобильных приложений (React Native)"
         ],
         "title": "Fullstack разработчик",
         "stack": [
@@ -162,7 +162,7 @@
           "\uD83D\uDFE3 Back-end for APIs",
           "\uD83D\uDFE3 Cloud deployment/integration",
           "\uD83D\uDFE3 Finacial operations including crypto/fiat exchange",
-          "\uD83D\uDFE3 Medium complexity frontend tasks(html, css, js, react-native, UI design)",
+          "\uD83D\uDFE3 Medium complexity frontend tasks(html, css, js, react-native)",
           "\uD83D\uDFE3 Smm automation(e.g. twitter API)",
           "\uD83D\uDFE3 Chat bots",
           "\uD83D\uDFE3 Web-scraping",
