@@ -8,20 +8,11 @@
     },
     "skills": {
       "applied": {
-        "list": [
-          "WPF", "pytorch"
-        ],
+        "list": ["WPF", "pytorch", "TensorFlow", "ASP.NET MVC", "FirebirdSQL"],
         "title": "Applied"
       },
       "intermediate": {
-        "list": [
-          "TensorFlow",
-          "C#",
-          "ASP.NET MVC",
-          "JQuery",
-          "Docker",
-          "vue.js"
-        ],
+        "list": ["React Native", "C#", "JQuery", "Docker", "vue.js", "MongoDB"],
         "title": "Intermediate"
       },
       "advanced": {
@@ -30,30 +21,22 @@
           "tornado",
           "Django",
           "fastapi",
-          "MongoDB",
           "PostgreSQL",
           "git",
-          "Redis",
           "Bootstrap",
-          "FirebirdSQL",
           "HTML, CSS",
           "bash"
         ],
         "title": "Advanced"
       }
     },
-    "headers": [
-      "Опыт работы",
-      "Навыки",
-      "Языки",
-      "Образование"
-    ],
+    "headers": ["Опыт работы", "Навыки", "Языки", "Образование"],
     "jobs": [
       {
         "body": [
-          "Разработка бэкенда (python), техподдержка, некоторые задачи фронтенда, девопс",
+          "Разработка бэкенда(python), техподдержка, некоторые задачи фронтенда, девопс",
           "Проекты и задачи: ",
-          "\uD83D\uDFE3 Бэкенд для API",
+          "\uD83D\uDFE3 Разработка и сопровождение API",
           "\uD83D\uDFE3 Облачная интеграция/развертывание",
           "\uD83D\uDFE3 Финансовые операции включая криптовалютные/фиатные обмены",
           "\uD83D\uDFE3 Средне сложные задачи фронтенда(html, css, js, jue, UI дизайн)",
@@ -61,11 +44,12 @@
           "\uD83D\uDFE3 Чат боты",
           "\uD83D\uDFE3 Веб-скрапинг",
           "\uD83D\uDFE3 Обучение моделей классификации изображений",
-          "\uD83D\uDFE3 Девопс: docker/nginx",
+          "\uD83D\uDFE3 Развертвание с использованием docker/nginx",
           "\uD83D\uDFE3 Широкое использование linux систем(Ubuntu, CentOS)",
-          "\uD83D\uDFE3 Анализ данных/сбор отчетов"
+          "\uD83D\uDFE3 Анализ данных/сбор отчетов (PostgreSQL)",
+          "\uD83D\uDFE3 Разработка, верстка мобильных приложений(React Native)"
         ],
-        "title": "Backend разработчик",
+        "title": "Fullstack разработчик",
         "stack": [
           "Python 2",
           "Python 3",
@@ -81,7 +65,7 @@
           "PostgreSQL",
           "linux",
           "bash",
-          "vue.js"
+          "react native"
         ],
         "date": "декабрь 2018 - настоящее время",
         "position": " "
@@ -112,14 +96,7 @@
           "Работа в технической поддержке, процессинг тикетов и баг-репортов, консультация пользователей."
         ],
         "date": "май 2015 – июль 2016",
-        "stack": [
-          ".NET",
-          "C#",
-          "WinForms",
-          "WPF",
-          "REST",
-          "SOAP"
-        ],
+        "stack": [".NET", "C#", "WinForms", "WPF", "REST", "SOAP"],
         "position": "",
         "title": "Инженер-программист"
       },
@@ -130,12 +107,7 @@
           "Обучение пользователей и поддержка разработанных продуктов."
         ],
         "date": "август 2013 - апрель 2015",
-        "stack": [
-          ".NET",
-          "C#",
-          "WinForms",
-          "TeklaStructures"
-        ],
+        "stack": [".NET", "C#", "WinForms", "TeklaStructures"],
         "position": "",
         "title": "Инженер-программист/инженер-проектировщик"
       },
@@ -144,10 +116,7 @@
           "Разработка и сопровождение техпроцессов и программ для станков с ЧПУ"
         ],
         "date": "февраль 2013 - июль 2013",
-        "stack": [
-          "G-code",
-          "management"
-        ],
+        "stack": ["G-code", "management"],
         "position": "",
         "title": "Технолог-программист"
       }
@@ -162,20 +131,11 @@
     },
     "skills": {
       "applied": {
-        "list": [
-          "WPF", "pytorch"
-        ],
+        "list": ["WPF", "pytorch", "TensorFlow", "ASP.NET MVC", "FirebirdSQL"],
         "title": "Applied"
       },
       "intermediate": {
-        "list": [
-          "TensorFlow",
-          "C#",
-          "ASP.NET MVC",
-          "JQuery",
-          "Docker",
-          "vue.js"
-        ],
+        "list": ["React Native", "C#", "JQuery", "Docker", "vue.js", "MongoDB"],
         "title": "Intermediate"
       },
       "advanced": {
@@ -184,24 +144,16 @@
           "tornado",
           "Django",
           "fastapi",
-          "MongoDB",
           "PostgreSQL",
           "git",
-          "Redis",
           "Bootstrap",
-          "FirebirdSQL",
           "HTML, CSS",
           "bash"
         ],
         "title": "Advanced"
       }
     },
-    "headers": [
-      "Work expierence",
-      "Skills",
-      "Languages",
-      "Education"
-    ],
+    "headers": ["Work expierence", "Skills", "Languages", "Education"],
     "jobs": [
       {
         "body": [
@@ -210,7 +162,7 @@
           "\uD83D\uDFE3 Back-end for APIs",
           "\uD83D\uDFE3 Cloud deployment/integration",
           "\uD83D\uDFE3 Finacial operations including crypto/fiat exchange",
-          "\uD83D\uDFE3 Medium complexity frontend tasks(html, css, js, jue, UI design)",
+          "\uD83D\uDFE3 Medium complexity frontend tasks(html, css, js, react-native, UI design)",
           "\uD83D\uDFE3 Smm automation(e.g. twitter API)",
           "\uD83D\uDFE3 Chat bots",
           "\uD83D\uDFE3 Web-scraping",
@@ -235,7 +187,7 @@
           "PostgreSQL",
           "linux",
           "bash",
-          "vue.js"
+          "react native"
         ],
         "position": " ",
         "title": "Backend engineer"
@@ -269,15 +221,7 @@
           "Tech support (mostly US customers)"
         ],
         "date": "may 2015 – july 2016",
-        "stack": [
-          ".NET",
-          "C#",
-          "WinForms",
-          "WPF",
-          "REST",
-          "git",
-          "SOAP"
-        ],
+        "stack": [".NET", "C#", "WinForms", "WPF", "REST", "git", "SOAP"],
         "position": "",
         "title": "Software development engineer"
       },
@@ -289,13 +233,7 @@
           "\uD83D\uDFE2 Steel resources managment system. Various calculation for optimal using, wasting and recycling metal"
         ],
         "date": "august 2013 – april 2015",
-        "stack": [
-          ".NET",
-          "C#",
-          "WinForms",
-          "TeklaStructures",
-          "MS Access SQL"
-        ],
+        "stack": [".NET", "C#", "WinForms", "TeklaStructures", "MS Access SQL"],
         "position": "",
         "title": "Software development engineer/CAD engineer"
       },
@@ -305,10 +243,7 @@
           "CNC machine tools programming (G-code)"
         ],
         "date": "february 2013 – july 2013",
-        "stack": [
-          "G-code",
-          "Tech management"
-        ],
+        "stack": ["G-code", "Tech management"],
         "position": "",
         "title": "CNC development engineer"
       }
