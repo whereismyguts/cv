@@ -1,207 +1,249 @@
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-129617468-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
+  <!-- Global site tag (gtag.js) - Google Analytics
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=UA-129617468-1"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
-        gtag("config", "UA-129617468-1");
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-129617468-1");
+  </script> -->
 
-    </script> 
-
-    <meta charset="utf-8"/>
-    <title>Anton Karmanov. Developer resume</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="cv.css"/>
-    <script src="https://unpkg.com/vue@2.6.14/dist/vue.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
-    <link href="favicon.ico" rel="icon" type="image/x-icon"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet"/>
-    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+  <meta charset="utf-8" />
+  <title>Anton Karmanov. Developer resume</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+  />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="cv.css" />
+  <script src="https://unpkg.com/vue@2.6.14/dist/vue.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
+  <link href="favicon.ico" rel="icon" type="image/x-icon" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link
+    href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css"
+    rel="stylesheet"
+  />
+  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 </head>
 
 <body>
-<div id="app" class="container">
-    <div class="row header" style=" margin: 20px 0">
-        <div class="col-sm-12">
-            <h2>{{ data.name }}</h2>
-            <h5>Software developer</h5>
-            <div class="link-container">
+  <div id="app" class="container">
+    <div class="row header" style="margin: 20px 0">
+      <div class="col-sm-12">
+        <h2>{{ data.name }}</h2>
+        <h5>Software developer</h5>
+        <div class="link-container">
+          <a href="https://github.com/whereismyguts">
+            <img src="svg/gh.svg" />github.com/whereismyguts</a
+          >
 
-                <a href="https://github.com/whereismyguts">
-                    <img src="svg/gh.svg"/>github.com/whereismyguts</a>
+          <a href="https://t.me/whereismyguts">
+            <img src="svg/tg.svg" />t.me/whereismyguts</a
+          >
 
-                <a href="https://t.me/whereismyguts">
-                    <img src="svg/tg.svg"/>t.me/whereismyguts</a>
+          <a href="mailto:whereismyguts@gmail.com">
+            <img src="svg/mail.svg" />whereismyguts@gmail.com</a
+          >
 
-                <a href="mailto:whereismyguts@gmail.com">
-                    <img src="svg/mail.svg"/>whereismyguts@gmail.com</a>
-
-                <a href="tel:+7(903)842-52-44">
-                    <img src="svg/phone.svg"/>+7(903)842-52-44</a>
-            </div>
+          <a href="tel:+7(903)842-52-44">
+            <img src="svg/phone.svg" />+7(903)842-52-44</a
+          >
         </div>
+      </div>
 
-        <div class="col-sm-4" style="user-select: none;">
-            <div class="language">
-                <input type="checkbox" id="checkbox" v-model="locale_index" @change="toggleLocale"/>
-                <label for="checkbox"></label>
-            </div>
-
+      <div class="col-sm-4" style="user-select: none; display: none">
+        <div class="language">
+          <input
+            type="checkbox"
+            id="checkbox"
+            v-model="locale_index"
+            @change="toggleLocale"
+          />
+          <label for="checkbox"></label>
         </div>
+      </div>
     </div>
 
     <div class="row" style="margin-top: 50px">
-        <div class="col-lg-8">
-            <h4>{{ data.headers[0] }}</h4>
-            <div v-for="job in data.jobs" class="card">
-                <div class="card-header">
-                    <h5 class="card-title">{{ job.title }}</h5>
-                    <h6 class="card-title">{{ job.position }}</h6>
-                    <span v-for="s in job.stack" class="badge badge-primary">
+      <div class="col-lg-8">
+        <h4>{{ data.headers[0] }}</h4>
+        <div v-for="job in data.jobs" class="card">
+          <div class="card-header">
+            <h5 class="card-title">{{ job.title }}</h5>
+            <h6 class="card-title">{{ job.position }}</h6>
+            <span v-for="s in job.stack" class="badge badge-primary">
               {{ s }}
             </span>
-                    <p class="card-text">{{ job.date }}</p>
-                </div>
-                <div class="card-body">
-                    <p v-for="line in job.body">{{ line }}</p>
-                </div>
-            </div>
+            <p class="card-text">{{ job.date }}</p>
+          </div>
+          <div class="card-body">
+            <p v-for="line in job.body">
+              {{ line.replace('URL','')}}
+              <a
+                v-if="line.includes('URL')"
+                :href="line.replace('URL', 'https://aimultichat.online') "
+              >
+                aimultichat.online
+              </a>
+              <!-- {{ line.replace('a', 'X') }} -->
+            </p>
+          </div>
         </div>
-        <div class="col-lg-4" style="font-size: 14px">
-
-            <h4>{{ data.headers[1] }}</h4>
-            <img src="python.png" style="width:100%"/>
-            <div class="card">
-                <div class="card-header bg-success ">
-                    {{ data.skills.advanced.title }}
-                </div>
-                <div class="card-body">
-                    <p v-for="s in data.skills.advanced.list">{{ s }}</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header bg-warning ">
-                    {{ data.skills.intermediate.title }}
-                </div>
-                <div class="card-body">
-                    <p v-for="s in data.skills.intermediate.list">{{ s }}</p>
-                </div>
-            </div>
-            <div class="card">
-                <div class="card-header bg-secondary ">
-                    {{ data.skills.applied.title }}
-                </div>
-                <div class="card-body">
-                    <p v-for="s in data.skills.applied.list">{{ s }}</p>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">{{ data.headers[2] }}</div>
-                <div class="card-body">
-                    <p>Russian native</p>
-                    <p>English intermediate</p>
-                </div>
-            </div>
-            <h4>{{ data.headers[3] }}</h4>
-            <div class="card">
-                <div class="card-header">{{ data.education.title }}</div>
-                <div class="card-body">
-                    <p>{{ data.education.description }}</p>
-                </div>
-            </div>
+      </div>
+      <div class="col-lg-4" style="font-size: 14px">
+        <h4>{{ data.headers[1] }}</h4>
+        <img src="python.png" style="width: 100%" />
+        <div class="card">
+          <div class="card-header bg-success">
+            {{ data.skills.advanced.title }}
+          </div>
+          <div class="card-body">
+            <p v-for="s in data.skills.advanced.list">{{ s }}</p>
+          </div>
         </div>
+        <div class="card">
+          <div class="card-header bg-warning">
+            {{ data.skills.intermediate.title }}
+          </div>
+          <div class="card-body">
+            <p v-for="s in data.skills.intermediate.list">{{ s }}</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header bg-secondary">
+            {{ data.skills.applied.title }}
+          </div>
+          <!-- <div class="card-body">
+            <p v-for="s in data.skills.applied.list">{{ s }}</p>
+          </div> -->
+        </div>
+
+        <div class="card">
+          <div class="card-header">{{ data.headers[2] }}</div>
+          <div class="card-body">
+            <p>Russian native</p>
+            <p>English intermediate</p>
+          </div>
+        </div>
+        <h4>{{ data.headers[3] }}</h4>
+        <div class="card">
+          <div class="card-header">{{ data.education.title }}</div>
+          <div class="card-body">
+            <p>{{ data.education.description }}</p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="row" style="margin-top: 30px;">
-        <div class="col-sm-6">
-            <ul class="">
-                
-                <li>
-                    <a href="https://github.com/whereismyguts"><img src="svg/gh.svg"/> github.com/whereismyguts</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/anton-karmanov-3315a312b/"><img src="svg/link.svg"/> Anton
-                        Karmanov</a>
-                </li>
-            </ul>
-        </div>
-        <div class="col-sm-6">
-            <ul>
-                <li>
-                    <a href="mailto:whereismyguts@gmail.com"><img src="svg/mail.svg"/> whereismyguts@gmail.com</a>
-                </li>
-                <li>
-                    <a href="https://t.me/whereismyguts"><img src="svg/tg.svg"/> t.me/whereismyguts</a>
-                </li>
+    <div class="row" style="margin-top: 30px">
+      <div class="col-sm-6">
+        <ul class="">
+          <li>
+            <a href="https://github.com/whereismyguts"
+              ><img src="svg/gh.svg" /> github.com/whereismyguts</a
+            >
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/anton-karmanov-3315a312b/"
+              ><img src="svg/link.svg" /> Anton Karmanov</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-6">
+        <ul>
+          <li>
+            <a href="mailto:whereismyguts@gmail.com"
+              ><img src="svg/mail.svg" /> whereismyguts@gmail.com</a
+            >
+          </li>
+          <li>
+            <a href="https://t.me/whereismyguts"
+              ><img src="svg/tg.svg" /> t.me/whereismyguts</a
+            >
+          </li>
 
-                <li>
-                    <a href="tel:+7(903)842-52-44"><img src="svg/phone.svg"/> +7(903)842-52-44</a>
-                </li>
-            </ul>
-        </div>
+          <li>
+            <a href="tel:+7(903)842-52-44"
+              ><img src="svg/phone.svg" /> +7(903)842-52-44</a
+            >
+          </li>
+        </ul>
+      </div>
     </div>
-</div>
-<img src="https://visitor-badge.glitch.me/badge?page_id=anton.karmanov.cv" alt="visitor badge"/>
+  </div>
+  <img
+    src="https://visitor-badge.glitch.me/badge?page_id=anton.karmanov.cv"
+    alt="visitor badge"
+  />
 
+  <script>
+    var App = new Vue({
+      el: "#app",
+      data: {
+        data: {
+          headers: [],
+          skills: {
+            advanced: [],
+            intermediate: [],
+            applied: [],
+          },
+          education: [],
+          jobs: [],
+        },
+        doc: [],
+        locale_index: true,
+      },
+      mounted() {
+        var self = this;
+        $.getJSON(
+          "data.json",
+          //'http://localhost:8000/data.json',
 
-<script>
-        var App = new Vue({
-            el: "#app",
-            data: {
-                data: {
-                    headers: [],
-                    skills: {
-                        advanced: [],
-                        intermediate: [],
-                        applied: []
-                    },
-                    education: [],
-                    jobs: []
-                },
-                doc: [],
-                locale_index: true
-            },
-            mounted() {
-                var self = this;
-                $.getJSON(
-                    'data.json',
-                    //'http://localhost:8000/data.json',
+          function (data) {
+            self.doc = {
+              true: data.en,
+              false: data.ru,
+            };
+            self.toggleLocale();
+          }
+        );
+      },
+      methods: {
+        toggleLocale() {
+          if (this.doc) {
+            this.data = this.doc[this.locale_index];
+          }
+        },
+      },
+    });
+  </script>
 
-                    function(data) {
-                        self.doc = {
-                            true: data.en,
-                            false: data.ru
-                        };
-                        self.toggleLocale();
-                    }
-                );
-            },
-            methods: {
-                toggleLocale() {
-                    if (this.doc) {
-                        this.data = this.doc[this.locale_index];
-                    }
-                }
-            }
-        });
-
-</script>
-
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"
+  ></script>
 </body>

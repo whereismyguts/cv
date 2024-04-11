@@ -131,30 +131,85 @@
     },
     "skills": {
       "applied": {
-        "list": ["WPF", "pytorch", "TensorFlow", "ASP.NET MVC", "FirebirdSQL"],
+        "list": ["WPF"],
         "title": "Applied"
       },
       "intermediate": {
-        "list": ["React Native", "C#", "JQuery", "Docker", "vue.js", "MongoDB"],
+        "list": [
+          "C#",
+
+          "JQuery",
+          "Bootstrap",
+          "vue.js",
+
+          "MongoDB",
+          "PostgreSQL",
+
+          "Django",
+
+          "pytorch",
+          "TensorFlow"
+        ],
         "title": "Intermediate"
       },
       "advanced": {
         "list": [
-          "Python",
+          "python",
+          "fastAPI",
           "tornado",
-          "Django",
-          "fastapi",
-          "PostgreSQL",
+          "Redis",
+          "sqlalchemy",
+          "REST",
+
+          "prompting",
+          "LLM-ops",
+
+          "linux",
+          "nginx",
           "git",
-          "Bootstrap",
+          "bash",
+
+          "js",
+          "npm",
+          "react native",
           "HTML, CSS",
-          "bash"
+
+          "Docker",
+          "GCP"
         ],
         "title": "Advanced"
       }
     },
     "headers": ["Work expierence", "Skills", "Languages", "Education"],
     "jobs": [
+      {
+        "body": [
+          "Projects and tasks: ",
+          "⭕️ Multiple AI-bots chat room: URL",
+          "⭕️ Cloud deployment/integration",
+          "⭕️ Design/building a customer assistant chatbots",
+          "⭕️ Building a RAG systems",
+          "⭕️ Implementing a multiple AI-agent chat/tooling systems",
+          "⭕️ Experiments and testing varoius applicapable capabilities of LLMs",
+          "⭕️ Writing a tech documentation"
+        ],
+        "date": "january 2018 – c.t.",
+        "stack": [
+          "bash",
+          "python",
+          "llama-index",
+          "langchain",
+          "RAG",
+          "docker",
+          "MongoDB",
+          "antropic",
+          "openai",
+          "mistral",
+          "llama"
+        ],
+        "position": "",
+        "title": "Tech lead dev"
+      },
       {
         "body": [
           "Fullstack dev (python, js), tech support, some frontend/devops",
@@ -171,7 +226,7 @@
           "\uD83D\uDFE3 Wide use of linux systems (Ubuntu, CentOS)",
           "\uD83D\uDFE3 Data analysis/building reports"
         ],
-        "date": "december 2018 – c.t.",
+        "date": "december 2018 – january 2024",
         "stack": [
           "Python 2",
           "Python 3",
