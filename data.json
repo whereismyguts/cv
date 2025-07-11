@@ -34,6 +34,43 @@
     "jobs": [
       {
         "body": [
+          "Разработка и поддержка телеграм-ботов для автоматизации бизнес-процессов, управления клиентами и продажами",
+          "Интеграция с внешними API для HR, CRM, календарей и обработки документов (Bitrix24, hh.ru, Outlook, OCR, Google API)",
+          "Проектирование и реализация бизнес-логики для лид-менеджмента, трекинга сделок, автоматических уведомлений и многошаговых сценариев",
+          "Создание инструментов для OAuth2-аутентификации, синхронизации календарей и извлечения текста из документов",
+          "Рефакторинг и модульность кода, повышение покрытия тестами, внедрение новых функций по запросам пользователей",
+          "Развертывание и поддержка облачной инфраструктуры на Docker и Linux для высокой доступности и масштабируемости",
+          "Взаимодействие с командами, подготовка технической документации, поддержка релизов и внедрение в продакшн"
+        ],
+        "date": "февраль 2024 – настоящее время",
+        "stack": [
+          "Python",
+          "FastAPI",
+          "Telegram Bot API",
+          "Google API",
+          "Bitrix API",
+          "OAuth2",
+          "Docker",
+          "PostgreSQL",
+          "OCR",
+          "Linux",
+          "Git",
+          "asyncio",
+          "pytest",
+          "YAML",
+          "Jinja2",
+          "requests",
+          "pydantic",
+          "SQLAlchemy",
+          "Redis",
+          "Google API",
+          "OpenAPI/Swagger"
+        ],
+        "position": "Backend engineer",
+        "title": "Backend engineer"
+      },
+      {
+        "body": [
           "Разработка бэкенда(python), техподдержка, некоторые задачи фронтенда, девопс",
           "Проекты и задачи: ",
           "\uD83D\uDFE3 Разработка и сопровождение API",
@@ -182,6 +219,43 @@
     },
     "headers": ["Work expierence", "Skills", "Languages", "Education"],
     "jobs": [
+      {
+        "body": [
+          "Development and support of Telegram bots for business process automation, client and sales management",
+          "Integration with external APIs for HR, CRM, calendars, and document processing (Bitrix24, hh.ru, Outlook, OCR, Google API)",
+          "Design and implementation of business logic for lead management, deal tracking, automatic notifications, and multi-step scenarios",
+          "Creation of tools for OAuth2 authentication, calendar synchronization, and text extraction from documents",
+          "Refactoring and modularization of code, increasing test coverage, implementing new features per user requests",
+          "Deployment and support of cloud infrastructure on Docker and Linux for high availability and scalability",
+          "Team collaboration, technical documentation, release support, and production rollout"
+        ],
+        "date": "February 2024 – present",
+        "stack": [
+          "Python",
+          "FastAPI",
+          "Telegram Bot API",
+          "Google API",
+          "Bitrix API",
+          "OAuth2",
+          "Docker",
+          "PostgreSQL",
+          "OCR",
+          "Linux",
+          "Git",
+          "asyncio",
+          "pytest",
+          "YAML",
+          "Jinja2",
+          "requests",
+          "pydantic",
+          "SQLAlchemy",
+          "Redis",
+          "Google API",
+          "OpenAPI/Swagger"
+        ],
+        "position": "Backend engineer",
+        "title": "Backend engineer"
+      },
       {
         "body": [
           "Projects and tasks: ",
