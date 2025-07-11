@@ -1,0 +1,248 @@
+/* Additional modern style enhancements */
+
+/* Add a subtle pattern background */
+body {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23f0f4f8' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  position: relative;
+  scroll-behavior: smooth; /* Enable smooth scrolling */
+}
+
+/* Enhanced section titles */
+.section-title {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+  font-weight: 700;
+  padding-bottom: 0.5rem;
+}
+
+.section-title:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 60px;
+  background: linear-gradient(to right, var(--secondary-color), var(--accent-color));
+  border-radius: 3px;
+}
+
+/* Language skills */
+.language-skills {
+  margin-top: 1rem;
+}
+
+.language-item {
+  margin-bottom: 1.25rem;
+}
+
+.language-name {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  color: var(--primary-color);
+  display: flex;
+  justify-content: space-between;
+}
+
+.language-level {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
+
+/* Language Toggle Button */
+.language-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 999;
+  background: var(--card-background);
+  border-radius: 30px;
+  padding: 8px 15px;
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition);
+  border: 1px solid var(--border-color);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.language-toggle span {
+  padding: 3px;
+  transition: var(--transition);
+}
+
+.language-toggle span.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.language-toggle span:not(.divider):hover {
+  color: var(--accent-color);
+}
+
+.language-toggle .divider {
+  margin: 0 5px;
+  color: var(--text-muted);
+}
+
+.language-toggle:hover {
+  box-shadow: var(--shadow-hover);
+}
+
+/* Back to Top Button */
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+  background: var(--secondary-color);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+  z-index: 1000;
+}
+
+.back-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.back-to-top:hover {
+  background: var(--primary-color);
+  transform: translateY(-3px);
+}
+
+.back-to-top svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+/* Core skills section */
+.core-skills-container {
+  margin-bottom: 25px;
+}
+
+.skill-tag.highlight {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Reveal animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease-in-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Better image handling */
+.img-container {
+  overflow: hidden;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.img-container img {
+  transition: transform 0.5s ease;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.img-container:hover img {
+  transform: scale(1.05);
+}
+
+/* Visitor counter styling */
+.visitor-counter {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  background: var(--card-background);
+  border-radius: 20px;
+  padding: 5px 15px;
+  font-size: 0.8rem;
+  box-shadow: var(--shadow);
+  color: var(--text-muted);
+  border: 1px solid var(--border-color);
+  z-index: 100;
+}
+
+.visitor-counter span {
+  font-weight: 600;
+  color: var(--accent-color);
+}
+
+/* Dark Mode Toggle removed */
+
+/* Dark mode variables removed */
+
+/* Dark mode background pattern removed */
+
+/* Core Skills - Simple Tag Style */
+.core-skills-container {
+  margin-bottom: 25px;
+}
+
+.skills-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.skill-tag {
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 20px;
+  background-color: rgba(37, 99, 235, 0.1);
+  color: var(--text-color);
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.skill-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
+.skill-tag.highlight {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-weight: 600;
+}
+
+/* Project Cards - Removed */
+
+/* Improve print styles */
+@media print {
+  body {
+    background-image: none;
+  }
+  
+  .back-to-top, .language-toggle {
+    display: none !important;
+  }
+}
