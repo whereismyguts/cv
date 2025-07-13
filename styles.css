@@ -110,6 +110,7 @@ h5 { font-size: 1.25rem; }
   margin-top: 2.5rem;
   position: relative;
   z-index: 1;
+  justify-content: flex-start;
 }
 
 .link-container a {

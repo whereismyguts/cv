@@ -1,4 +1,0 @@
-### debug
-
-`python static.py ./`
-

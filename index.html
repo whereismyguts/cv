@@ -1,26 +1,21 @@
 <head>
   <meta charset="utf-8" />
   <title>Anton Karmanov | Software Developer</title>
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-  />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
   <meta name="description" content="Software developer specializing in Python, Backend Engineering, and DevOps" />
   <meta name="theme-color" content="#2563eb">
   <meta name="keywords" content="software developer, python, backend, developer, engineer, full stack, devops">
   <meta name="author" content="Anton Karmanov">
-  
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <!-- Bootstrap 4 -->
   <link
-    rel="stylesheet"
-    href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous"
-  />
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap 4 -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
   <!-- Custom Styles -->
   <link rel="stylesheet" href="cv.css" />
   <link rel="stylesheet" href="styles.css" />
@@ -29,10 +24,7 @@
   <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
   <link href="favicon.ico" rel="icon" type="image/x-icon" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link
-    href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css"
-    rel="stylesheet"
-  />
+  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet" />
   <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
 </head>
 
@@ -43,11 +35,13 @@
     <span class="divider">/</span>
     <span class="lang-ru">RU</span>
   </div>
-  
+
   <!-- Back to Top Button -->
   <a href="#app" class="back-to-top" id="back-to-top" aria-label="Back to top">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
-      <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z"/>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"
+      aria-hidden="true">
+      <path fill-rule="evenodd"
+        d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
     </svg>
   </a>
 
@@ -60,17 +54,14 @@
           <a href="https://github.com/whereismyguts" target="_blank" class="contact-link">
             <img src="svg/gh.svg" alt="GitHub" />github.com/whereismyguts</a>
 
-          <a
-            href="https://www.linkedin.com/in/anton-karmanov-3315a312b/"
-            target="_blank" 
-            class="contact-link"
-            ><img src="svg/link.svg" alt="LinkedIn" /> Anton Karmanov</a>
 
           <a href="https://t.me/aa_karmanov" target="_blank" class="contact-link">
             <img src="svg/tg.svg" alt="Telegram" />@aa_karmanov</a>
 
           <a href="mailto:whereismyguts@gmail.com" target="_blank" class="contact-link">
             <img src="svg/mail.svg" alt="Email" />whereismyguts@gmail.com</a>
+          <a :href="cvUrl" download class="contact-link">
+            <img src="svg/cv.svg" alt="CV" />{{ data.cv_download }}</a>
         </div>
       </div>
     </div>
@@ -95,12 +86,9 @@
                 <div v-for="line in job.body" class="experience-item">
                   <p>
                     {{ line.replace('URL','')}}
-                    <a
-                      v-if="line.includes('URL')"
-                      :href="line.replace('URL', 'https://aitomaton.online') "
-                      class="project-link"
-                    >
-                      {{ line.replace('URL', 'aitomaton.online') }} 
+                    <a v-if="line.includes('URL')" :href="line.replace('URL', 'https://aitomaton.online') "
+                      class="project-link">
+                      {{ line.replace('URL', 'aitomaton.online') }}
                     </a>
                   </p>
                 </div>
@@ -115,41 +103,12 @@
         <div class="img-container reveal">
           <img src="python.png" alt="Python Programming" />
         </div>
-        
+
         <!-- Core Skills Section -->
-        <h4 class="mt-4 mb-3 reveal">Core Skills</h4>
+        <h4 class="mt-4 mb-3 reveal">Stack</h4>
         <div class="core-skills-container reveal">
           <div class="skills-cloud">
-            <div class="skill-tag highlight">Python</div>
-            <div class="skill-tag highlight">Django</div>
-            <div class="skill-tag highlight">FastAPI</div>
-            <div class="skill-tag highlight">Docker</div>
-            <div class="skill-tag highlight">PostgreSQL</div>
-            <div class="skill-tag highlight">React</div>
-          </div>
-        </div>
-        
-        <!-- Advanced skills -->
-        <div class="skill-category reveal">
-          <h4>{{ data.skills.advanced.title }}</h4>
-          <div class="skills-cloud">
-            <div v-for="s in data.skills.advanced.list" class="skill-tag">{{ s }}</div>
-          </div>
-        </div>
-        
-        <!-- Intermediate skills -->
-        <div class="skill-category reveal">
-          <h4>{{ data.skills.intermediate.title }}</h4>
-          <div class="skills-cloud">
-            <div v-for="s in data.skills.intermediate.list" class="skill-tag">{{ s }}</div>
-          </div>
-        </div>
-        
-        <!-- Applied skills -->
-        <div class="skill-category reveal">
-          <h4>{{ data.skills.applied.title }}</h4>
-          <div class="skills-cloud">
-            <div v-for="s in data.skills.applied.list" class="skill-tag">{{ s }}</div>
+            <div v-for="s in data.skills.advanced.list" class="skill-tag highlight">{{ s }}</div>
           </div>
         </div>
 
@@ -164,7 +123,7 @@
               </div>
               <div class="language-level">Native</div>
             </div>
-            
+
             <div class="language-item">
               <div class="language-name">English</div>
               <div class="skill-progress">
@@ -174,14 +133,16 @@
             </div>
           </div>
         </div>
-        
+
         <!-- Education section -->
         <h4 class="section-title mt-4 reveal">{{ data.headers[3] }}</h4>
         <div class="education-card reveal">
           <div class="education-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
-              <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z"/>
-              <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z"/>
+              <path
+                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z" />
+              <path
+                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z" />
             </svg>
           </div>
           <div class="education-content">
@@ -203,13 +164,15 @@
           <div class="cta-buttons">
             <a href="mailto:whereismyguts@gmail.com" class="cta-button primary">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
               </svg>
               Contact me
             </a>
             <a href="https://github.com/whereismyguts" target="_blank" class="cta-button secondary">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                <path
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
               </svg>
               View Projects
             </a>
@@ -218,13 +181,10 @@
       </div>
     </div>
   </div>
-  
+
   <!-- Visitor counter with improved styling -->
   <div class="visitor-counter">
-    <img
-      src="https://visitor-badge.glitch.me/badge?page_id=anton.karmanov.cv"
-      alt="visitor badge"
-    />
+    <img src="https://visitor-badge.glitch.me/badge?page_id=anton.karmanov.cv" alt="visitor badge" />
   </div>
 
   <script>
@@ -244,6 +204,11 @@
         doc: [],
         locale_index: true,
       },
+      computed: {
+        cvUrl() {
+          return this.locale_index ? 'anton_karmanov_cv_en.pdf' : 'anton_karmanov_cv_ru.pdf';
+        }
+      },
       mounted() {
         var self = this;
         $.getJSON(
@@ -256,13 +221,13 @@
             self.toggleLocale();
           }
         );
-        
+
         // Initialize scroll reveal animations
         this.initRevealAnimations();
-        
+
         // Initialize back to top button
         this.initBackToTopButton();
-        
+
         // Initialize language toggle
         this.initLanguageToggle();
       },
@@ -281,7 +246,7 @@
               rect.bottom >= 0
             );
           }
-          
+
           // Function to handle scroll events
           function handleScroll() {
             const elements = document.querySelectorAll('.reveal');
@@ -291,16 +256,16 @@
               }
             });
           }
-          
+
           // Add event listener
           window.addEventListener('scroll', handleScroll);
-          
+
           // Trigger once on page load
           setTimeout(handleScroll, 300);
         },
         initBackToTopButton() {
           const backToTopBtn = document.getElementById('back-to-top');
-          
+
           window.addEventListener('scroll', () => {
             if (window.scrollY > 300) {
               backToTopBtn.classList.add('show');
@@ -308,7 +273,7 @@
               backToTopBtn.classList.remove('show');
             }
           });
-          
+
           backToTopBtn.addEventListener('click', (e) => {
             e.preventDefault();
             window.scrollTo({
@@ -321,9 +286,9 @@
           const toggleBtn = document.getElementById('language-toggle');
           const enLang = document.querySelector('.lang-en');
           const ruLang = document.querySelector('.lang-ru');
-          
+
           if (!toggleBtn) return;
-          
+
           // Set initial state based on current locale
           if (this.locale_index) {
             enLang.classList.add('active');
@@ -332,7 +297,7 @@
             enLang.classList.remove('active');
             ruLang.classList.add('active');
           }
-          
+
           // Toggle language when clicked
           toggleBtn.addEventListener('click', (e) => {
             if (e.target.classList.contains('lang-en') && !this.locale_index) {
@@ -352,21 +317,15 @@
     });
   </script>
 
-  <script
-    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"
-  ></script>
-  <script
-    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"
-  ></script>
+    crossorigin="anonymous"></script>
   <!-- Modern features JS -->
   <script src="modern.js"></script>
 
@@ -381,8 +340,10 @@
           <div class="footer-links">
             <a href="CV.pdf" class="btn-download" title="Download CV">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
-                <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                <path
+                  d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
+                <path
+                  d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
               </svg>
               Download CV
             </a>

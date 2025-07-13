@@ -6,6 +6,7 @@
       "description": "Инженер по САПР (автоматизированные системы проектирования)",
       "title": "2008–2012 Тульский Государственный Университет"
     },
+    "cv_download": "Скачать резюме",
     "skills": {
       "applied": {
         "list": [
@@ -201,6 +202,7 @@
     "name": "Антон Карманов"
   },
   "en": {
+    "cv_download": "Download resume",
     "resume_name": "404.html",
     "education": {
       "description": "CAD engineer",
