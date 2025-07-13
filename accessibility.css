@@ -1,0 +1,150 @@
+/* Accessibility enhancements */
+
+/* Focus styles */
+:focus {
+  outline: 3px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Skip to content link */
+.skip-to-content {
+  position: absolute;
+  top: -50px;
+  left: 0;
+  padding: 12px;
+  background: var(--accent-color);
+  color: white;
+  z-index: 10000;
+  transition: top 0.3s;
+  font-weight: 600;
+  border-radius: 0 0 5px 0;
+}
+
+.skip-to-content:focus {
+  top: 0;
+}
+
+/* Increased contrast for better readability */
+body.high-contrast {
+  --primary-color: #0033a0;
+  --secondary-color: #005bb5;
+  --accent-color: #00ab6b;
+  --text-color: #000000;
+  --text-muted: #333333;
+  --background-color: #ffffff;
+  --card-background: #ffffff;
+  --border-color: #333333;
+}
+
+/* Text resizing support */
+html {
+  font-size: 100%; /* Sets base font size to user's preference */
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .reveal {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  body {
+    scroll-behavior: auto;
+  }
+}
+
+/* Improve link accessibility */
+a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
+
+a:hover, a:focus {
+  text-decoration-thickness: 2px;
+}
+
+/* Improve form control accessibility */
+button, 
+input, 
+select, 
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  width: auto;
+}
+
+/* Improve keyboard accessibility of interactive elements */
+.project-card,
+.skill-tag,
+.cta-button,
+.btn-download,
+.theme-toggle,
+.back-to-top {
+  position: relative;
+}
+
+.project-card:focus-within,
+.skill-tag:focus-within,
+.cta-button:focus-within,
+.btn-download:focus-within,
+.theme-toggle:focus,
+.back-to-top:focus {
+  box-shadow: 0 0 0 3px var(--accent-color);
+}
+
+/* ARIA improvements for screen readers */
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+/* Dark mode ARIA announcement */
+.theme-announcement {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* High contrast button */
+.high-contrast-toggle {
+  position: fixed;
+  top: 70px;
+  right: 20px;
+  z-index: 999;
+  background: var(--card-background);
+  border-radius: 30px;
+  padding: 5px;
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition);
+  border: 1px solid var(--border-color);
+}
+
+.high-contrast-toggle span {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  padding: 3px;
+  border-radius: 50%;
+  transition: var(--transition);
+}
+
+.high-contrast-toggle:hover {
+  box-shadow: var(--shadow-hover);
+}

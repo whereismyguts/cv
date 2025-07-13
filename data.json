@@ -3,233 +3,61 @@
   "ru": {
     "resume_name": "resume.pdf",
     "education": {
-      "description": "Политехнический институт, Механико-технологический факультет, Автоматизированные станочные системы, инженер по специальности САПР ",
-      "title": "Тульский Государственный Университет (2008–2012)"
+      "description": "Инженер по САПР (автоматизированные системы проектирования)",
+      "title": "2008–2012 Тульский Государственный Университет"
     },
     "skills": {
       "applied": {
-        "list": ["WPF", "pytorch", "TensorFlow", "ASP.NET MVC", "FirebirdSQL"],
-        "title": "Applied"
-      },
-      "intermediate": {
-        "list": ["React Native", "C#", "JQuery", "Docker", "vue.js", "MongoDB"],
-        "title": "Intermediate"
-      },
-      "advanced": {
         "list": [
-          "Python",
-          "tornado",
-          "Django",
-          "fastapi",
-          "PostgreSQL",
-          "git",
-          "Bootstrap",
-          "HTML, CSS",
-          "bash"
+          "WPF"
         ],
-        "title": "Advanced"
-      }
-    },
-    "headers": ["Опыт работы", "Навыки", "Языки", "Образование"],
-    "jobs": [
-      {
-        "body": [
-          "Разработка и поддержка телеграм-ботов для автоматизации бизнес-процессов, управления клиентами и продажами",
-          "Интеграция с внешними API для HR, CRM, календарей и обработки документов (Bitrix24, hh.ru, Outlook, OCR, Google API)",
-          "Проектирование и реализация бизнес-логики для лид-менеджмента, трекинга сделок, автоматических уведомлений и многошаговых сценариев",
-          "Создание инструментов для OAuth2-аутентификации, синхронизации календарей и извлечения текста из документов",
-          "Рефакторинг и модульность кода, повышение покрытия тестами, внедрение новых функций по запросам пользователей",
-          "Развертывание и поддержка облачной инфраструктуры на Docker и Linux для высокой доступности и масштабируемости",
-          "Взаимодействие с командами, подготовка технической документации, поддержка релизов и внедрение в продакшн"
-        ],
-        "date": "февраль 2024 – настоящее время",
-        "stack": [
-          "Python",
-          "FastAPI",
-          "Telegram Bot API",
-          "Google API",
-          "Bitrix API",
-          "OAuth2",
-          "Docker",
-          "PostgreSQL",
-          "OCR",
-          "Linux",
-          "Git",
-          "asyncio",
-          "pytest",
-          "YAML",
-          "Jinja2",
-          "requests",
-          "pydantic",
-          "SQLAlchemy",
-          "Redis",
-          "Google API",
-          "OpenAPI/Swagger"
-        ],
-        "position": "Backend engineer",
-        "title": "Backend engineer"
-      },
-      {
-        "body": [
-          "Разработка бэкенда(python), техподдержка, некоторые задачи фронтенда, девопс",
-          "Проекты и задачи: ",
-          "\uD83D\uDFE3 Разработка и сопровождение API",
-          "\uD83D\uDFE3 Облачная интеграция/развертывание",
-          "\uD83D\uDFE3 Финансовые операции включая криптовалютные/фиатные обмены",
-          "\uD83D\uDFE3 Задачи фронтенда (html, css, js, UI дизайн)",
-          "\uD83D\uDFE3 Автоматизация SMM (например, twitter API)",
-          "\uD83D\uDFE3 Чат боты",
-          "\uD83D\uDFE3 Веб-скрапинг",
-          "\uD83D\uDFE3 Обучение моделей классификации изображений",
-          "\uD83D\uDFE3 Развертывание с использованием docker/nginx",
-          "\uD83D\uDFE3 Широкое использование linux систем(Ubuntu, CentOS)",
-          "\uD83D\uDFE3 Анализ данных/сбор отчетов (PostgreSQL)",
-          "\uD83D\uDFE3 Разработка, верстка мобильных приложений (React Native)"
-        ],
-        "title": "Fullstack разработчик",
-        "stack": [
-          "Python 2",
-          "Python 3",
-          "TensorFlow",
-          "docker",
-          "nginx",
-          "MongoDB",
-          "tornado",
-          "fastapi",
-          "git",
-          "Redis",
-          "sqlalchemy",
-          "PostgreSQL",
-          "linux",
-          "bash",
-          "react native"
-        ],
-        "date": "декабрь 2018 - настоящее время",
-        "position": " "
-      },
-      {
-        "body": [
-          "Десктоп-клиент системы контроля доступа (PyQT, Python2.7)",
-          "Серверная часть системы контроля доступа (Django, PostgreSQL django-rest, docker)",
-          "Веб-приложение системы контроля доступа (ASP.Net MVC, JQuery, Firebird SQL, IIS)"
-        ],
-        "date": "август 2016 – июль 2018",
-        "stack": [
-          "Python",
-          "Django",
-          ".NET",
-          "C#",
-          "REST",
-          "PostgreSQL",
-          "FirebirdSQL",
-          "C++"
-        ],
-        "position": "",
-        "title": "Инженер-программист (fullstack)"
-      },
-      {
-        "body": [
-          "Разработка и поддержка компонентов под WPF и WinForms, в частности — компонента для работы с картами.",
-          "Работа в технической поддержке, процессинг тикетов и баг-репортов, консультация пользователей."
-        ],
-        "date": "май 2015 – июль 2016",
-        "stack": [".NET", "C#", "WinForms", "WPF", "REST", "SOAP"],
-        "position": "",
-        "title": "Инженер-программист"
-      },
-      {
-        "body": [
-          "Инженерный центр, Отдел типовых решений и инновационных разработок.",
-          "Проектирование, разработка и поддержка плагинов, макросов и приложений для Tekla Structures, десктопных приложений для инженерных расчетов, статистики, тайм-менеджмента, учета премий и прочих задач.",
-          "Обучение пользователей и поддержка разработанных продуктов."
-        ],
-        "date": "август 2013 - апрель 2015",
-        "stack": [".NET", "C#", "WinForms", "TeklaStructures"],
-        "position": "",
-        "title": "Инженер-программист/инженер-проектировщик"
-      },
-      {
-        "body": [
-          "Разработка и сопровождение техпроцессов и программ для станков с ЧПУ"
-        ],
-        "date": "февраль 2013 - июль 2013",
-        "stack": ["G-code", "management"],
-        "position": "",
-        "title": "Технолог-программист"
-      }
-    ],
-    "name": "Антон Карманов"
-  },
-  "en": {
-    "resume_name": "404.html",
-    "education": {
-      "description": "CAD engineer",
-      "title": "2008–2012 Tula State University, "
-    },
-    "skills": {
-      "applied": {
-        "list": ["WPF"],
         "title": "Applied"
       },
       "intermediate": {
         "list": [
           "C#",
-
           "JQuery",
           "Bootstrap",
           "vue.js",
-
           "MongoDB",
           "PostgreSQL",
-
           "Django",
-
           "pytorch",
           "TensorFlow"
         ],
-        "title": "Intermediate"
+        "title": "Средний уровень"
       },
       "advanced": {
         "list": [
-          "python",
-          "fastAPI",
-          "tornado",
-          "Redis",
-          "sqlalchemy",
-          "REST",
-
-          "prompting",
-          "LLM-ops",
-
-          "linux",
-          "nginx",
-          "git",
-          "bash",
-
-          "js",
-          "npm",
-          "react native",
-          "HTML, CSS",
-
+          "Python",
+          "React Native",
+          "C#",
+          "PostgreSQL",
+          "MongoDB",
           "Docker",
-          "GCP"
+          "nginx"
         ],
         "title": "Advanced"
       }
     },
-    "headers": ["Work expierence", "Skills", "Languages", "Education"],
+    "headers": [
+      "Опыт работы",
+      "Стек",
+      "Языки",
+      "Образование"
+    ],
     "jobs": [
       {
         "body": [
-          "Development and support of Telegram bots for business process automation, client and sales management",
-          "Integration with external APIs for HR, CRM, calendars, and document processing (Bitrix24, hh.ru, Outlook, OCR, Google API)",
-          "Design and implementation of business logic for lead management, deal tracking, automatic notifications, and multi-step scenarios",
-          "Creation of tools for OAuth2 authentication, calendar synchronization, and text extraction from documents",
-          "Refactoring and modularization of code, increasing test coverage, implementing new features per user requests",
-          "Deployment and support of cloud infrastructure on Docker and Linux for high availability and scalability",
-          "Team collaboration, technical documentation, release support, and production rollout"
+          "Разработка и поддержка телеграм-ботов для автоматизации бизнес-процессов и управления клиентами",
+          "Интеграция с внешними API (Bitrix24, hh.ru, Outlook, Google API, OCR)",
+          "Проектирование бизнес-логики для лид-менеджмента, трекинга сделок и уведомлений",
+          "Инструменты для OAuth2-аутентификации, синхронизации календарей и извлечения текста из документов",
+          "Рефакторинг кода, повышение покрытия тестами, внедрение новых функций",
+          "Развертывание и поддержка облачной инфраструктуры Docker/Linux",
+          "Техническая документация и поддержка релизов"
         ],
-        "date": "February 2024 – present",
+        "date": "с февраля 2024",
         "stack": [
           "Python",
           "FastAPI",
@@ -258,16 +86,11 @@
       },
       {
         "body": [
-          "Projects and tasks: ",
-          "⭕️ Multiple AI-bots chat room: URL",
-          "⭕️ Cloud deployment/integration",
-          "⭕️ Design/building a customer assistant chatbots",
-          "⭕️ Building a RAG systems",
-          "⭕️ Implementing a multiple AI-agent chat/tooling systems",
-          "⭕️ Experiments and testing varoius applicapable capabilities of LLMs",
-          "⭕️ Writing a tech documentation"
+          "Проектирование и разработка чат-ботов, RAG-систем, инструментальных систем на базе LLM",
+          "Облачное развертывание и интеграция",
+          "Эксперименты и тестирование различных возможностей LLM"
         ],
-        "date": "january 2018 – c.t.",
+        "date": "с января 2022",
         "stack": [
           "bash",
           "python",
@@ -286,19 +109,213 @@
       },
       {
         "body": [
-          "Fullstack dev (python, js), tech support, some frontend/devops",
-          "Projects and tasks: ",
-          "\uD83D\uDFE3 Back-end for APIs",
-          "\uD83D\uDFE3 Cloud deployment/integration",
-          "\uD83D\uDFE3 Finacial operations including crypto/fiat exchange",
-          "\uD83D\uDFE3 Medium complexity frontend tasks(html, css, js, react-native)",
-          "\uD83D\uDFE3 Smm automation(e.g. twitter API)",
-          "\uD83D\uDFE3 Chat bots",
-          "\uD83D\uDFE3 Web-scraping",
-          "\uD83D\uDFE3 Training of image classification models",
-          "\uD83D\uDFE3 DevOps: docker/nginx",
-          "\uD83D\uDFE3 Wide use of linux systems (Ubuntu, CentOS)",
-          "\uD83D\uDFE3 Data analysis/building reports"
+          "Бэкенд для API",
+          "Облачное развертывание и интеграция",
+          "Финансовые операции, включая обмен криптовалют/фиата",
+          "Техподдержка, фронтенд",
+          "Автоматизация SMM, чат-боты, веб-скрапинг",
+          "DevOps: docker/nginx",
+          "Анализ данных и построение отчетов"
+        ],
+        "date": "декабрь 2018 – январь 2024",
+        "stack": [
+          "Python 2",
+          "Python 3",
+          "TensorFlow",
+          "docker",
+          "nginx",
+          "MongoDB",
+          "tornado",
+          "fastapi",
+          "git",
+          "Redis",
+          "sqlalchemy",
+          "PostgreSQL",
+          "linux",
+          "bash",
+          "react native"
+        ],
+        "position": " ",
+        "title": "Backend engineer"
+      },
+      {
+        "body": [
+          "Система контроля доступа:",
+          "Десктоп-клиент (PyQT, Python2.7)",
+          "Серверная часть (Django, PostgreSQL django-rest, docker)",
+          "Веб-приложение (ASP.Net MVC, JQuery, Firebird SQL, IIS)"
+        ],
+        "date": "август 2016 – ноябрь 2018",
+        "stack": [
+          "Python",
+          "Django",
+          ".NET",
+          "C#",
+          "REST",
+          "PostgreSQL",
+          "FirebirdSQL",
+          "git",
+          "C++"
+        ],
+        "position": "",
+        "title": "Fullstack development engineer"
+      },
+      {
+        "body": [
+          ".NET: разработка UI-компонентов (WPF, WinForms)",
+          "Основные домены: карты, графики и диаграммы",
+          "Техническая поддержка (в основном клиенты из США)"
+        ],
+        "date": "май 2015 – июль 2016",
+        "stack": [
+          ".NET",
+          "C#",
+          "WinForms",
+          "WPF",
+          "REST",
+          "git",
+          "SOAP"
+        ],
+        "position": "",
+        "title": "Software development engineer"
+      },
+      {
+        "body": [
+          "Примеры корпоративных проектов, разработанных самостоятельно для внутреннего использования:",
+          "Макросы, плагины и приложения для CAD-системы Tekla Structures с использованием TeklaStructures API и платформы .Net.",
+          "Внутренняя система тайм-менеджмента. Сбор, обработка и наглядное представление информации о сотрудниках, задержках, премиях, оплате и т.д.",
+          "Система управления стальными ресурсами. Различные расчеты для оптимального использования, отходов и переработки металла"
+        ],
+        "date": "август 2013 – апрель 2015",
+        "stack": [
+          ".NET",
+          "C#",
+          "WinForms",
+          "TeklaStructures",
+          "MS Access SQL"
+        ],
+        "position": "",
+        "title": "Software development engineer/CAD engineer"
+      }
+    ],
+    "name": "Антон Карманов"
+  },
+  "en": {
+    "resume_name": "404.html",
+    "education": {
+      "description": "CAD engineer",
+      "title": "2008–2012 Tula State University, "
+    },
+    "skills": {
+      "applied": {
+        "list": [
+          "WPF"
+        ],
+        "title": "Applied"
+      },
+      "intermediate": {
+        "list": [
+          "C#",
+          "JQuery",
+          "Bootstrap",
+          "vue.js",
+          "MongoDB",
+          "PostgreSQL",
+          "Django",
+          "pytorch",
+          "TensorFlow"
+        ],
+        "title": "Intermediate"
+      },
+      "advanced": {
+        "list": [
+          "Python",
+          "React Native",
+          "C#",
+          "PostgreSQL",
+          "MongoDB",
+          "Docker",
+          "nginx"
+        ],
+        "title": "Advanced"
+      }
+    },
+    "headers": [
+      "Work expierence",
+      "Stack",
+      "Languages",
+      "Education"
+    ],
+    "jobs": [
+      {
+        "body": [
+          "Development and maintenance of Telegram bots for business automation and client management",
+          "API integration with external services (Bitrix24, hh.ru, Outlook, Google API, OCR)",
+          "Business logic design for lead management, deal tracking, and notifications",
+          "OAuth2 authentication tools, calendar synchronization, and document text extraction",
+          "Code refactoring, test coverage improvement, and new feature implementation",
+          "Docker/Linux cloud infrastructure deployment and support",
+          "Tech documentation, and release support"
+        ],
+        "date": "from february 2024",
+        "stack": [
+          "Python",
+          "FastAPI",
+          "Telegram Bot API",
+          "Google API",
+          "Bitrix API",
+          "OAuth2",
+          "Docker",
+          "PostgreSQL",
+          "OCR",
+          "Linux",
+          "Git",
+          "asyncio",
+          "pytest",
+          "YAML",
+          "Jinja2",
+          "requests",
+          "pydantic",
+          "SQLAlchemy",
+          "Redis",
+          "Google API",
+          "OpenAPI/Swagger"
+        ],
+        "position": "Backend engineer",
+        "title": "Backend engineer"
+      },
+      {
+        "body": [
+          "Design/building a customer assistant chatbots, RAG systems, chat/tooling systems",
+          "Cloud deployment/integration",
+          "Experiments and testing varoius applicapable capabilities of LLMs"
+        ],
+        "date": "from january 2022",
+        "stack": [
+          "bash",
+          "python",
+          "llama-index",
+          "langchain",
+          "RAG",
+          "docker",
+          "MongoDB",
+          "antropic",
+          "openai",
+          "mistral",
+          "llama"
+        ],
+        "position": "",
+        "title": "Tech lead dev"
+      },
+      {
+        "body": [
+          "Back-end for APIs",
+          "Cloud deployment/integration",
+          "Finacial operations including crypto/fiat exchange",
+          "tech support, frontend",
+          "Smm automation, chat bots, web-scraping",
+          "DevOps: docker/nginx",
+          "Data analysis/building reports"
         ],
         "date": "december 2018 – january 2024",
         "stack": [
@@ -324,9 +341,9 @@
       {
         "body": [
           "Access control system components:",
-          "\uD83D\uDD35 Desktop client  (PyQT, Python2.7)",
-          "\uD83D\uDD35 Backend server (Django, PostgreSQL django-rest, docker)",
-          "\uD83D\uDD35 Web application (ASP.Net MVC, JQuery, Firebird SQL, IIS)"
+          "Desktop client  (PyQT, Python2.7)",
+          "Backend server (Django, PostgreSQL django-rest, docker)",
+          "Web application (ASP.Net MVC, JQuery, Firebird SQL, IIS)"
         ],
         "date": "august 2016 – november 2018",
         "stack": [
@@ -350,31 +367,35 @@
           "Tech support (mostly US customers)"
         ],
         "date": "may 2015 – july 2016",
-        "stack": [".NET", "C#", "WinForms", "WPF", "REST", "git", "SOAP"],
+        "stack": [
+          ".NET",
+          "C#",
+          "WinForms",
+          "WPF",
+          "REST",
+          "git",
+          "SOAP"
+        ],
         "position": "",
         "title": "Software development engineer"
       },
       {
         "body": [
           "Example of enterprise projects, developed all alone for internal usage:",
-          "\uD83D\uDFE2 Macros, plugins and applications for CAD-system Tekla Structures using TeklaStructures API and .Net platform.",
-          "\uD83D\uDFE2 Internal time managment system. Gathering, processing and easy representation of information about the employees, delays, premium, payment, etc.",
-          "\uD83D\uDFE2 Steel resources managment system. Various calculation for optimal using, wasting and recycling metal"
+          "Macros, plugins and applications for CAD-system Tekla Structures using TeklaStructures API and .Net platform.",
+          "Internal time managment system. Gathering, processing and easy representation of information about the employees, delays, premium, payment, etc.",
+          "Steel resources managment system. Various calculation for optimal using, wasting and recycling metal"
         ],
         "date": "august 2013 – april 2015",
-        "stack": [".NET", "C#", "WinForms", "TeklaStructures", "MS Access SQL"],
+        "stack": [
+          ".NET",
+          "C#",
+          "WinForms",
+          "TeklaStructures",
+          "MS Access SQL"
+        ],
         "position": "",
         "title": "Software development engineer/CAD engineer"
-      },
-      {
-        "body": [
-          "Steelwork industry processing",
-          "CNC machine tools programming (G-code)"
-        ],
-        "date": "february 2013 – july 2013",
-        "stack": ["G-code", "Tech management"],
-        "position": "",
-        "title": "CNC development engineer"
       }
     ],
     "name": "Anton Karmanov"
