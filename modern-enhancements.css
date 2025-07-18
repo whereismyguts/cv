@@ -13,9 +13,10 @@ body {
   position: relative;
   display: inline-block;
   margin-bottom: 1.5rem;
-  color: var(--primary-color);
+  color: #222;
   font-weight: 700;
   padding-bottom: 0.5rem;
+  border-radius: 0;
 }
 
 .section-title:after {
@@ -25,8 +26,8 @@ body {
   left: 0;
   height: 3px;
   width: 60px;
-  background: linear-gradient(to right, var(--secondary-color), var(--accent-color));
-  border-radius: 3px;
+  background: #222;
+  border-radius: 0;
 }
 
 /* Language skills */
@@ -57,10 +58,11 @@ body {
   top: 20px;
   right: 20px;
   z-index: 999;
-  background: var(--card-background);
-  border-radius: 30px;
+  background: #fff;
+  border-radius: 0;
   padding: 8px 15px;
-  box-shadow: var(--shadow);
+  box-shadow: none;
+  color: #222;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,17 +103,11 @@ body {
   right: 30px;
   width: 50px;
   height: 50px;
-  background: var(--secondary-color);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
+  background: #222;
+  border-radius: 0;
+  box-shadow: none;
+  color: #fff;
   text-decoration: none;
-  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(20px);
   transition: all 0.3s ease;
   z-index: 1000;
 }
@@ -138,10 +134,25 @@ body {
   margin-bottom: 25px;
 }
 
+.skill-tag {
+  font-size: 0.85rem;
+  padding: 6px 12px;
+  border-radius: 0;
+  background: #222;
+  color: #fff;
+  font-weight: 500;
+  transition: var(--transition);
+}
+
+.skill-tag:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow);
+}
+
 .skill-tag.highlight {
   background-color: var(--primary-color);
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* Reveal animations */
@@ -159,8 +170,8 @@ body {
 /* Better image handling */
 .img-container {
   overflow: hidden;
-  border-radius: var(--border-radius);
-  box-shadow: var(--shadow);
+  border-radius: 0;
+  box-shadow: none;
   transition: var(--transition);
 }
 
@@ -180,13 +191,11 @@ body {
   position: fixed;
   bottom: 30px;
   left: 30px;
-  background: var(--card-background);
-  border-radius: 20px;
-  padding: 5px 15px;
-  font-size: 0.8rem;
-  box-shadow: var(--shadow);
-  color: var(--text-muted);
-  border: 1px solid var(--border-color);
+  background: #f7f7f7;
+  border-radius: 0;
+  box-shadow: none;
+  color: #666;
+  border: 1px solid #ccc;
   z-index: 100;
 }
 
@@ -216,9 +225,9 @@ body {
 .skill-tag {
   font-size: 0.85rem;
   padding: 6px 12px;
-  border-radius: 20px;
-  background-color: rgba(37, 99, 235, 0.1);
-  color: var(--text-color);
+  border-radius: 0;
+  background: #222;
+  color: #fff;
   font-weight: 500;
   transition: var(--transition);
 }

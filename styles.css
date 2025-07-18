@@ -4,19 +4,19 @@
  */
 
 :root {
-  --primary-color: #1e3a8a;
-  --secondary-color: #2563eb;
-  --accent-color: #2dd4bf;
-  --text-color: #111827;
-  --text-muted: #6b7280;
-  --background-color: #f9fafb;
-  --card-background: #ffffff;
-  --border-color: #e5e7eb;
-  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-hover: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --border-radius: 10px;
-  --transition: all 0.3s ease;
-  --header-gradient: linear-gradient(135deg, #1e40af 0%, #3b82f6 100%);
+  --primary-color: #222;
+  --secondary-color: #444;
+  --accent-color: #888;
+  --text-color: #111;
+  --text-muted: #666;
+  --background-color: #fff;
+  --card-background: #f7f7f7;
+  --border-color: #ccc;
+  --shadow: none;
+  --shadow-hover: none;
+  --border-radius: 0;
+  --transition: all 0.2s ease;
+  --header-gradient: none;
   --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
@@ -58,37 +58,25 @@ h5 { font-size: 1.25rem; }
 
 /* Header Section */
 .header {
-  background: var(--header-gradient);
-  color: white;
+  background: #222;
+  color: #fff;
+  border-radius: 0;
+  box-shadow: none;
   padding: 4rem 0;
   margin-bottom: 3.5rem;
-  border-radius: 0 0 var(--border-radius) var(--border-radius);
-  box-shadow: var(--shadow);
-  position: relative;
-  overflow: hidden;
-}
-
-.header::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  right: -50%;
-  width: 100%;
-  height: 200%;
-  background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 70%);
-  z-index: 0;
 }
 
 .header h2 {
+  background: none;
+  -webkit-background-clip: initial;
+  background-clip: initial;
+  -webkit-text-fill-color: initial;
+  color: #222;
   font-size: 3.5rem;
   margin-bottom: 0.5rem;
   font-weight: 800;
   position: relative;
   z-index: 1;
-  background: linear-gradient(90deg, #ffffff, #e2e8f0);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .header h5 {
@@ -116,22 +104,21 @@ h5 { font-size: 1.25rem; }
 .link-container a {
   display: flex;
   align-items: center;
-  color: white;
+  background: #fff;
+  color: #222;
   text-decoration: none;
   transition: var(--transition);
   padding: 0.65rem 1.25rem;
-  border-radius: 9999px;
-  background-color: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(5px);
+  border-radius: 0;
+  box-shadow: none;
   font-size: 0.95rem;
   font-weight: 500;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
 }
 
 .link-container a:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  background: #eee;
+  color: #111;
+  box-shadow: none;
 }
 
 .link-container img {
@@ -143,10 +130,9 @@ h5 { font-size: 1.25rem; }
 
 /* Cards */
 .card {
-  background: var(--card-background);
-  border: none;
-  border-radius: var(--border-radius);
-  box-shadow: var(--shadow);
+  background: #f7f7f7;
+  border-radius: 0;
+  box-shadow: none;
   margin-bottom: 2.5rem;
   transition: var(--transition);
   overflow: hidden;
@@ -166,7 +152,7 @@ h5 { font-size: 1.25rem; }
   width: 4px;
   height: 100%;
   background: var(--secondary-color);
-  border-radius: var(--border-radius) 0 0 var(--border-radius);
+  border-radius: 0;
 }
 
 .card-header {
@@ -206,12 +192,13 @@ h5 { font-size: 1.25rem; }
   text-align: center;
   white-space: nowrap;
   vertical-align: baseline;
-  border-radius: 9999px;
+  border-radius: 0 !important;
   margin-right: 0.5rem;
   margin-bottom: 0.75rem;
   letter-spacing: 0.025em;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
-  transition: all 0.2s ease;
+  box-shadow: none !important;
+  background: #444 !important;
+  color: #fff !important;
 }
 
 .badge:hover {
@@ -220,7 +207,6 @@ h5 { font-size: 1.25rem; }
 }
 
 .badge-primary {
-  color: white;
   background-color: var(--secondary-color);
   background-image: linear-gradient(135deg, var(--secondary-color), rgba(59, 130, 246, 0.8));
 }
