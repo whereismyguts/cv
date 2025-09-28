@@ -1,348 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
   <title>Anton Karmanov | Software Developer</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
-  <meta name="description" content="Software developer specializing in Python, Backend Engineering, and DevOps" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="description" content="Software developer specializing in Python, Backend Engineering, and DevOps">
   <meta name="theme-color" content="#2563eb">
   <meta name="keywords" content="software developer, python, backend, developer, engineer, full stack, devops">
   <meta name="author" content="Anton Karmanov">
 
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet">
-  <!-- Bootstrap 4 -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
-  <!-- Custom Styles -->
-  <link rel="stylesheet" href="cv.css" />
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="modern-enhancements.css" />
-  <script src="https://unpkg.com/vue@2.6.14/dist/vue.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/vue-resource@1.3.4"></script>
-  <link href="favicon.ico" rel="icon" type="image/x-icon" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet" />
-  <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://whereismyguts.github.io/cv/favicon.ico" rel="icon" type="image/x-icon">
 </head>
 
 <body>
-  <!-- Language toggle -->
-  <div class="language-toggle" id="language-toggle" title="Toggle Language" aria-label="Toggle Language">
-    <span class="lang-en active">EN</span>
-    <span class="divider">/</span>
-    <span class="lang-ru">RU</span>
-  </div>
-
-  <!-- Back to Top Button -->
-  <a href="#app" class="back-to-top" id="back-to-top" aria-label="Back to top">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16"
-      aria-hidden="true">
-      <path fill-rule="evenodd"
-        d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
-    </svg>
-  </a>
-
-  <div id="app" class="container" role="main">
-    <div id="main-content" class="row header reveal" style="background: #f7f7f7; color: #222; padding: 2rem 0; border-bottom: 1px solid #ccc; border-radius: 0; box-shadow: none;">
-      <div class="col-sm-12">
-        <h1 style="font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem; color: #222;">{{ data.name }}</h1>
-        <h2 class="subtitle" style="font-size: 1.2rem; font-weight: 500; margin-bottom: 1.5rem; color: #444;">Software Developer</h2>
-        <div class="link-container" role="navigation" aria-label="Contact links">
-          <a href="https://github.com/whereismyguts" target="_blank" class="contact-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>github.com/whereismyguts</a>
-          <a href="https://t.me/aa_karmanov" target="_blank" class="contact-link">
-            <img src="svg/tg.svg" alt="Telegram" style="width:20px;height:20px;margin-right:0.75rem;">@aa_karmanov</a>
-          <a href="mailto:whereismyguts@gmail.com" target="_blank" class="contact-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/></svg>whereismyguts@gmail.com</a>
-          <a :href="cvUrl" download class="contact-link">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/><path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/></svg>{{ data.cv_download }}</a>
+  <div id="app" role="main" class="container">
+    <div id="main-content" class="row header reveal active">
+      <div class="col-12">
+        <h1>Anton Karmanov</h1>
+        <h2 class="subtitle">Software Developer</h2>
+        <div role="navigation" aria-label="Contact links" class="link-container">
+          <a href="https://github.com/whereismyguts" target="_blank" class="contact-link" tabindex="0">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"
+              aria-hidden="true">
+              <path
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+              </path>
+            </svg>
+            <span>github.com/whereismyguts</span>
+          </a>
+          <a href="https://t.me/aa_karmanov" target="_blank" class="contact-link" tabindex="0">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-.99-.65-.35-1.01.22-1.59.15-.15 2.71-2.48 2.76-2.69a.2.2 0 00-.05-.18c-.06-.05-.14-.03-.21-.02-.09.02-1.49.95-4.22 2.79-.4.27-.76.41-1.08.4-.36-.01-1.04-.2-1.55-.37-.63-.2-1.12-.31-1.08-.66.02-.18.27-.36.74-.55 2.92-1.27 4.86-2.11 5.83-2.51 2.78-1.16 3.35-1.36 3.73-1.36.08 0 .27.02.39.12.1.08.13.19.14.27-.01.06.01.24 0 .38z" />
+            </svg>
+            <span>@aa_karmanov</span>
+          </a>
+          <a href="mailto:whereismyguts@gmail.com" target="_blank" class="contact-link" tabindex="0">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"
+              aria-hidden="true">
+              <path
+                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z">
+              </path>
+            </svg>
+            <span>whereismyguts@gmail.com</span>
+          </a>
+          <a href="https://whereismyguts.github.io/cv/anton_karmanov_cv_en.pdf" download="" class="contact-link"
+            tabindex="0">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"
+              aria-hidden="true">
+              <path
+                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z">
+              </path>
+              <path
+                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z">
+              </path>
+            </svg>
+            <span>Download resume</span>
+          </a>
         </div>
       </div>
     </div>
 
-    <div class="row" style="margin-top: 50px">
+    <div class="row" style="margin-top: 50px;">
       <div class="col-lg-8">
-        <h4 class="section-title reveal">{{ data.headers[0] }}</h4>
-        <div class="timeline reveal">
-          <div v-for="job in data.jobs" class="timeline-entry">
+        <h4 class="section-title reveal active">Work Experience</h4>
+        <div class="timeline reveal active" role="list">
+          <div class="timeline-entry">
             <div class="card">
               <div class="card-header">
-                <h5 class="card-title">{{ job.title }}</h5>
-                <h6 class="card-subtitle mb-3">{{ job.position }}</h6>
+                <h5 class="card-title">Backend Engineer <p class="card-date">from february 2024</p>
+                </h5>
+
                 <div class="badges-container">
-                  <span v-for="s in job.stack" class="badge badge-primary">
-                    {{ s }}
-                  </span>
+                  <span class="badge badge-primary">Python</span>
+                  <span class="badge badge-primary">FastAPI</span>
+                  <span class="badge badge-primary">Telegram Bot API</span>
+                  <span class="badge badge-primary">Google API</span>
+                  <span class="badge badge-primary">Bitrix API</span>
+                  <span class="badge badge-primary">OAuth2</span>
+                  <span class="badge badge-primary">Docker</span>
+                  <span class="badge badge-primary">PostgreSQL</span>
+                  <span class="badge badge-primary">OCR</span>
+                  <span class="badge badge-primary">Linux</span>
+                  <span class="badge badge-primary">Git</span>
+                  <span class="badge badge-primary">asyncio</span>
+                  <span class="badge badge-primary">pytest</span>
+                  <span class="badge badge-primary">YAML</span>
+                  <span class="badge badge-primary">Jinja2</span>
+                  <span class="badge badge-primary">requests</span>
+                  <span class="badge badge-primary">pydantic</span>
+                  <span class="badge badge-primary">SQLAlchemy</span>
+                  <span class="badge badge-primary">Redis</span>
+                  <span class="badge badge-primary">OpenAPI/Swagger</span>
                 </div>
-                <p class="card-date">{{ job.date }}</p>
               </div>
               <div class="card-body">
-                <div v-for="line in job.body" class="experience-item">
-                  <p>
-                    {{ line.replace('URL','')}}
-                    <a v-if="line.includes('URL')" :href="line.replace('URL', 'https://aitomaton.online') "
-                      class="project-link">
-                      {{ line.replace('URL', 'aitomaton.online') }}
-                    </a>
+                <div class="experience-item">
+                  <p>Development and maintenance of Telegram bots for business automation and client management</p>
+                </div>
+                <div class="experience-item">
+                  <p>API integration with external services (Bitrix24, hh.ru, Outlook, Google API, OCR)</p>
+                </div>
+                <div class="experience-item">
+                  <p>Business logic design for lead management, deal tracking, and notifications</p>
+                </div>
+                <div class="experience-item">
+                  <p>OAuth2 authentication tools, calendar synchronization, and document text extraction</p>
+                </div>
+                <div class="experience-item">
+                  <p>Code refactoring, test coverage improvement, and new feature implementation</p>
+                </div>
+                <div class="experience-item">
+                  <p>Docker/Linux cloud infrastructure deployment and support</p>
+                </div>
+                <div class="experience-item">
+                  <p>Tech documentation, and release support</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-entry">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="card-title">Tech Lead Dev <p class="card-date">from january 2022</p>
+                </h5>
+
+                <div class="badges-container">
+                  <span class="badge badge-primary">bash</span>
+                  <span class="badge badge-primary">python</span>
+                  <span class="badge badge-primary">llama-index</span>
+                  <span class="badge badge-primary">langchain</span>
+                  <span class="badge badge-primary">RAG</span>
+                  <span class="badge badge-primary">docker</span>
+                  <span class="badge badge-primary">MongoDB</span>
+                  <span class="badge badge-primary">anthropic</span>
+                  <span class="badge badge-primary">openai</span>
+                  <span class="badge badge-primary">mistral</span>
+                  <span class="badge badge-primary">llama</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="experience-item">
+                  <p>Design/building a customer assistant chatbots, RAG systems, chat/tooling systems</p>
+                </div>
+                <div class="experience-item">
+                  <p>Cloud deployment/integration</p>
+                </div>
+                <div class="experience-item">
+                  <p>Experiments and testing various applicable capabilities of LLMs</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-entry">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="card-title">Backend Engineer <p class="card-date">december 2018 — january 2024</p>
+                </h5>
+
+                <div class="badges-container">
+                  <span class="badge badge-primary">Python 2</span>
+                  <span class="badge badge-primary">Python 3</span>
+                  <span class="badge badge-primary">TensorFlow</span>
+                  <span class="badge badge-primary">docker</span>
+                  <span class="badge badge-primary">nginx</span>
+                  <span class="badge badge-primary">MongoDB</span>
+                  <span class="badge badge-primary">tornado</span>
+                  <span class="badge badge-primary">fastapi</span>
+                  <span class="badge badge-primary">git</span>
+                  <span class="badge badge-primary">Redis</span>
+                  <span class="badge badge-primary">sqlalchemy</span>
+                  <span class="badge badge-primary">PostgreSQL</span>
+                  <span class="badge badge-primary">linux</span>
+                  <span class="badge badge-primary">bash</span>
+                  <span class="badge badge-primary">react native</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="experience-item">
+                  <p>Back-end for APIs</p>
+                </div>
+                <div class="experience-item">
+                  <p>Cloud deployment/integration</p>
+                </div>
+                <div class="experience-item">
+                  <p>Financial operations including crypto/fiat exchange</p>
+                </div>
+                <div class="experience-item">
+                  <p>tech support, frontend</p>
+                </div>
+                <div class="experience-item">
+                  <p>SMM automation, chat bots, web-scraping</p>
+                </div>
+                <div class="experience-item">
+                  <p>DevOps: docker/nginx</p>
+                </div>
+                <div class="experience-item">
+                  <p>Data analysis/building reports</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-entry">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="card-title">Fullstack Development Engineer <p class="card-date">august 2016 — november 2018
                   </p>
+                </h5>
+
+                <div class="badges-container">
+                  <span class="badge badge-primary">Python</span>
+                  <span class="badge badge-primary">Django</span>
+                  <span class="badge badge-primary">.NET</span>
+                  <span class="badge badge-primary">C#</span>
+                  <span class="badge badge-primary">REST</span>
+                  <span class="badge badge-primary">PostgreSQL</span>
+                  <span class="badge badge-primary">FirebirdSQL</span>
+                  <span class="badge badge-primary">git</span>
+                  <span class="badge badge-primary">C++</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="experience-item">
+                  <p>Access control system components:</p>
+                </div>
+                <div class="experience-item">
+                  <p>Desktop client (PyQT, Python2.7)</p>
+                </div>
+                <div class="experience-item">
+                  <p>Backend server (Django, PostgreSQL django-rest, docker)</p>
+                </div>
+                <div class="experience-item">
+                  <p>Web application (ASP.Net MVC, Firebird SQL, IIS)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-entry">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="card-title">Software Development Engineer <p class="card-date">may 2015 — july 2016</p>
+                </h5>
+
+                <div class="badges-container">
+                  <span class="badge badge-primary">.NET</span>
+                  <span class="badge badge-primary">C#</span>
+                  <span class="badge badge-primary">WinForms</span>
+                  <span class="badge badge-primary">WPF</span>
+                  <span class="badge badge-primary">REST</span>
+                  <span class="badge badge-primary">git</span>
+                  <span class="badge badge-primary">SOAP</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="experience-item">
+                  <p>.NET UI controls development. (.NET, WPF, WinForms)</p>
+                </div>
+                <div class="experience-item">
+                  <p>Mainly domains: maps, charts and diagrams</p>
+                </div>
+                <div class="experience-item">
+                  <p>Tech support (mostly US customers)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-entry">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="card-title">Software Development Engineer/CAD Engineer <p class="card-date">august 2013 —
+                    april 2015</p>
+                </h5>
+
+                <div class="badges-container">
+                  <span class="badge badge-primary">.NET</span>
+                  <span class="badge badge-primary">C#</span>
+                  <span class="badge badge-primary">WinForms</span>
+                  <span class="badge badge-primary">TeklaStructures</span>
+                  <span class="badge badge-primary">MS Access SQL</span>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="experience-item">
+                  <p>Example of enterprise projects, developed all alone for internal usage:</p>
+                </div>
+                <div class="experience-item">
+                  <p>Macros, plugins and applications for CAD-system Tekla Structures using TeklaStructures API and .Net
+                    platform.</p>
+                </div>
+                <div class="experience-item">
+                  <p>Internal time management system. Gathering, processing and easy representation of information about
+                    the employees, delays, premium, payment, etc.</p>
+                </div>
+                <div class="experience-item">
+                  <p>Steel resources management system. Various calculation for optimal using, wasting and recycling
+                    metal</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
       </div>
+
       <div class="col-lg-4">
-        <h4 class="section-title reveal">{{ data.headers[1] }}</h4>
-        <div class="img-container reveal">
-          <img src="python.png" alt="Python Programming" />
-        </div>
+        <h4 class="section-title reveal active">Stack</h4>
 
-        <!-- Core Skills Section -->
-        <!-- <h4 class="mt-4 mb-3 reveal">Stack</h4> -->
-        <div class="core-skills-container reveal">
-          <div class="skills-cloud">
-            <div v-for="s in data.skills.advanced.list" class="skill-tag highlight">{{ s }}</div>
+        <div class="core-skills-container reveal active">
+          <div class="skills-cloud" role="group" aria-label="Skills">
+            <div class="skill-tag highlight">Python</div>
+            <div class="skill-tag highlight">React Native</div>
+            <div class="skill-tag highlight">PostgreSQL</div>
+            <div class="skill-tag highlight">MongoDB</div>
+            <div class="skill-tag highlight">Docker</div>
+            <div class="skill-tag highlight">nginx</div>
           </div>
         </div>
 
-        <!-- Languages section -->
-        <div class="skill-category reveal">
-          <h4>{{ data.headers[2] }}</h4>
-          <div class="language-skills">
-            <div class="language-item">
-              <div class="language-name">Russian</div>
-              <div class="skill-progress">
-                <div class="skill-progress-bar" style="width: 100%"></div>
-              </div>
-              <div class="language-level">Native</div>
-            </div>
+        <div class="reveal active" style="margin-bottom: 2rem;">
+          <h4>Languages</h4>
+          <ul style="padding-left: 1.2em; margin: 0;"> </ul>
+          <p class="language-item">English B1</p>
+          <p class="language-item">Russian Native</p>
 
-            <div class="language-item">
-              <div class="language-name">English</div>
-              <div class="skill-progress">
-                <div class="skill-progress-bar" style="width: 70%"></div>
-              </div>
-              <div class="language-level">Intermediate</div>
-            </div>
-          </div>
+          </ul>
         </div>
 
-        <!-- Education section -->
-        <h4 class="section-title mt-4 reveal">{{ data.headers[3] }}</h4>
-        <div class="education-card reveal">
+        <h4 class="section-title mt-4 reveal active">Education</h4>
+        <div class="education-card reveal active">
           <div class="education-icon">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
               <path
-                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z" />
+                d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5Z">
+              </path>
               <path
-                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z" />
+                d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Z">
+              </path>
             </svg>
           </div>
           <div class="education-content">
-            <h5>{{ data.education.title }}</h5>
-            <p>{{ data.education.description }}</p>
+            <h5>2008—2012 Tula State University</h5>
+            <p>CAD engineer</p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Call to action section -->
     <div class="row mt-5">
       <div class="col-12">
-        <div class="cta-container reveal">
+        <div class="cta-container reveal active">
           <div class="cta-content">
             <h3>Interested in working together?</h3>
             <p>Feel free to reach out through any of the contact methods above.</p>
           </div>
           <div class="cta-buttons">
-            <a href="mailto:whereismyguts@gmail.com" class="cta-button primary">
+            <a href="mailto:whereismyguts@gmail.com" class="cta-button primary" tabindex="0">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                 <path
-                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z" />
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z">
+                </path>
               </svg>
               Contact me
             </a>
-            <a href="https://github.com/whereismyguts" target="_blank" class="cta-button secondary">
+            <a href="https://github.com/whereismyguts" target="_blank" class="cta-button secondary" tabindex="0">
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                 <path
-                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                  d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z">
+                </path>
               </svg>
               View Projects
             </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+            <a href="https://whereismyguts.github.io/cv/anton_karmanov_cv_en.pdf" class="cta-button secondary"
+              title="Download CV" tabindex="0">
 
-
-  <script>
-    var App = new Vue({
-      el: "#app",
-      data: {
-        data: {
-          headers: [],
-          skills: {
-            advanced: [],
-            intermediate: [],
-            applied: [],
-          },
-          education: [],
-          jobs: [],
-        },
-        doc: [],
-        locale_index: true,
-      },
-      computed: {
-        cvUrl() {
-          return this.locale_index ? 'anton_karmanov_cv_en.pdf' : 'anton_karmanov_cv_ru.pdf';
-        }
-      },
-      mounted() {
-        var self = this;
-        $.getJSON(
-          "data.json",
-          function (data) {
-            self.doc = {
-              true: data.en,
-              false: data.ru,
-            };
-            self.toggleLocale();
-          }
-        );
-
-        // Initialize scroll reveal animations
-        this.initRevealAnimations();
-
-        // Initialize back to top button
-        this.initBackToTopButton();
-
-        // Initialize language toggle
-        this.initLanguageToggle();
-      },
-      methods: {
-        toggleLocale() {
-          if (this.doc) {
-            this.data = this.doc[this.locale_index];
-          }
-        },
-        initRevealAnimations() {
-          // Function to check if an element is in viewport
-          function isElementInViewport(el) {
-            const rect = el.getBoundingClientRect();
-            return (
-              rect.top <= (window.innerHeight || document.documentElement.clientHeight) * 0.8 &&
-              rect.bottom >= 0
-            );
-          }
-
-          // Function to handle scroll events
-          function handleScroll() {
-            const elements = document.querySelectorAll('.reveal');
-            elements.forEach(el => {
-              if (isElementInViewport(el)) {
-                el.classList.add('active');
-              }
-            });
-          }
-
-          // Add event listener
-          window.addEventListener('scroll', handleScroll);
-
-          // Trigger once on page load
-          setTimeout(handleScroll, 300);
-        },
-        initBackToTopButton() {
-          const backToTopBtn = document.getElementById('back-to-top');
-
-          window.addEventListener('scroll', () => {
-            if (window.scrollY > 300) {
-              backToTopBtn.classList.add('show');
-            } else {
-              backToTopBtn.classList.remove('show');
-            }
-          });
-
-          backToTopBtn.addEventListener('click', (e) => {
-            e.preventDefault();
-            window.scrollTo({
-              top: 0,
-              behavior: 'smooth'
-            });
-          });
-        },
-        initLanguageToggle() {
-          const toggleBtn = document.getElementById('language-toggle');
-          const enLang = document.querySelector('.lang-en');
-          const ruLang = document.querySelector('.lang-ru');
-
-          if (!toggleBtn) return;
-
-          // Set initial state based on current locale
-          if (this.locale_index) {
-            enLang.classList.add('active');
-            ruLang.classList.remove('active');
-          } else {
-            enLang.classList.remove('active');
-            ruLang.classList.add('active');
-          }
-
-          // Toggle language when clicked
-          toggleBtn.addEventListener('click', (e) => {
-            if (e.target.classList.contains('lang-en') && !this.locale_index) {
-              this.locale_index = true;
-              this.toggleLocale();
-              enLang.classList.add('active');
-              ruLang.classList.remove('active');
-            } else if (e.target.classList.contains('lang-ru') && this.locale_index) {
-              this.locale_index = false;
-              this.toggleLocale();
-              enLang.classList.remove('active');
-              ruLang.classList.add('active');
-            }
-          });
-        }
-      },
-    });
-  </script>
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <!-- Modern features JS -->
-  <script src="modern.js"></script>
-
-  <!-- Footer Section -->
-  <footer class="footer mt-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-          <p class="footer-text">
-            &copy; 2025 Anton Karmanov
-          </p>
-          <div class="footer-links">
-            <a href="CV.pdf" class="btn-download" title="Download CV">
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                <path
-                  d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z" />
-                <path
-                  d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z" />
-              </svg>
               Download CV
             </a>
           </div>
         </div>
       </div>
     </div>
-  </footer>
+  </div>
+
+
 </body>
+
+</html>
