@@ -17,7 +17,7 @@
       "intermediate": {
         "list": [
           "C#",
-          "JQuery",
+          "jQuery",
           "Bootstrap",
           "vue.js",
           "MongoDB",
@@ -49,6 +49,7 @@
     ],
     "jobs": [
       {
+        "company": "AO Neiroseti",
         "body": [
           "Разработка и поддержка телеграм-ботов для автоматизации бизнес-процессов и управления клиентами",
           "Интеграция с внешними API (Bitrix24, hh.ru, Outlook, Google API, OCR)",
@@ -58,7 +59,7 @@
           "Развертывание и поддержка облачной инфраструктуры Docker/Linux",
           "Техническая документация и поддержка релизов"
         ],
-        "date": "с февраля 2024",
+        "date": "с апреля 2024",
         "stack": [
           "Python",
           "FastAPI",
@@ -82,16 +83,17 @@
           "Google API",
           "OpenAPI/Swagger"
         ],
-        "position": "Backend engineer",
-        "title": "Backend engineer"
+  "position": "Backend Engineer",
+  "title": "Backend Engineer"
       },
       {
+        "company": "aitomaton",
         "body": [
           "Проектирование и разработка чат-ботов, RAG-систем, инструментальных систем на базе LLM",
           "Облачное развертывание и интеграция",
           "Эксперименты и тестирование различных возможностей LLM"
         ],
-        "date": "с января 2022",
+        "date": "с января 2024",
         "stack": [
           "bash",
           "python",
@@ -105,10 +107,11 @@
           "mistral",
           "llama"
         ],
-        "position": "",
-        "title": "Tech lead dev"
+  "position": "",
+  "title": "Tech Lead Dev"
       },
       {
+        "company": "QStudio.org — Boutique Digital Transformation Agency",
         "body": [
           "Бэкенд для API",
           "Облачное развертывание и интеграция",
@@ -136,15 +139,16 @@
           "bash",
           "react native"
         ],
-        "position": " ",
-        "title": "Backend engineer"
+  "position": " ",
+  "title": "Backend Engineer"
       },
       {
+        "company": "Alfa Pribor",
         "body": [
           "Система контроля доступа:",
           "Десктоп-клиент (PyQT, Python2.7)",
-          "Серверная часть (Django, PostgreSQL django-rest, docker)",
-          "Веб-приложение (ASP.Net MVC, JQuery, Firebird SQL, IIS)"
+          "Серверная часть (Django, PostgreSQL, Django REST Framework, Docker)",
+          "Веб-приложение (ASP.NET MVC, jQuery, Firebird SQL, IIS)"
         ],
         "date": "август 2016 – ноябрь 2018",
         "stack": [
@@ -158,10 +162,11 @@
           "git",
           "C++"
         ],
-        "position": "",
-        "title": "Fullstack development engineer"
+  "position": "",
+  "title": "Fullstack Development Engineer"
       },
       {
+        "company": "Developer Express, Inc.",
         "body": [
           ".NET: разработка UI-компонентов (WPF, WinForms)",
           "Основные домены: карты, графики и диаграммы",
@@ -177,10 +182,11 @@
           "git",
           "SOAP"
         ],
-        "position": "",
-        "title": "Software development engineer"
+  "position": "",
+  "title": "Software Development Engineer"
       },
       {
+        "company": "Freelance / Various companies",
         "body": [
           "Примеры корпоративных проектов, разработанных самостоятельно для внутреннего использования:",
           "Макросы, плагины и приложения для CAD-системы Tekla Structures с использованием TeklaStructures API и платформы .Net.",
@@ -195,8 +201,8 @@
           "TeklaStructures",
           "MS Access SQL"
         ],
-        "position": "",
-        "title": "Software development engineer/CAD engineer"
+  "position": "",
+  "title": "Software Development Engineer/CAD Engineer"
       }
     ],
     "name": "Антон Карманов"
@@ -205,7 +211,7 @@
     "cv_download": "Download resume",
     "resume_name": "404.html",
     "education": {
-      "description": "CAD engineer",
+  "description": "CAD Engineer",
       "title": "2008–2012 Tula State University, "
     },
     "skills": {
@@ -243,13 +249,14 @@
       }
     },
     "headers": [
-      "Work expierence",
+      "Work experience",
       "Stack",
       "Languages",
       "Education"
     ],
     "jobs": [
       {
+        "company": "AO Neiroseti",
         "body": [
           "Development and maintenance of Telegram bots for business automation and client management",
           "API integration with external services (Bitrix24, hh.ru, Outlook, Google API, OCR)",
@@ -259,7 +266,7 @@
           "Docker/Linux cloud infrastructure deployment and support",
           "Tech documentation, and release support"
         ],
-        "date": "from february 2024",
+  "date": "from April 2024",
         "stack": [
           "Python",
           "FastAPI",
@@ -287,12 +294,13 @@
         "title": "Backend engineer"
       },
       {
+        "company": "aitomaton",
         "body": [
-          "Design/building a customer assistant chatbots, RAG systems, chat/tooling systems",
-          "Cloud deployment/integration",
-          "Experiments and testing varoius applicapable capabilities of LLMs"
+          "Designed and built customer assistant chatbots, RAG systems, and chat/tooling systems",
+          "Deployed and integrated cloud services",
+          "Experimented with and tested various applicable capabilities of LLMs"
         ],
-        "date": "from january 2022",
+  "date": "from January 2024",
         "stack": [
           "bash",
           "python",
@@ -310,16 +318,17 @@
         "title": "Tech lead dev"
       },
       {
+        "company": "QStudio.org — Boutique Digital Transformation Agency",
         "body": [
-          "Back-end for APIs",
-          "Cloud deployment/integration",
-          "Finacial operations including crypto/fiat exchange",
-          "tech support, frontend",
-          "Smm automation, chat bots, web-scraping",
-          "DevOps: docker/nginx",
-          "Data analysis/building reports"
+          "Developed back-end APIs",
+          "Managed cloud deployment and integration",
+          "Financial operations including crypto/fiat exchange",
+          "Provided technical support and front-end development",
+          "SMM automation, chatbots, web scraping",
+          "DevOps: Docker/Nginx",
+          "Performed data analysis and built reports"
         ],
-        "date": "december 2018 – january 2024",
+  "date": "December 2018 – January 2024",
         "stack": [
           "Python 2",
           "Python 3",
@@ -341,13 +350,14 @@
         "title": "Backend engineer"
       },
       {
+        "company": "Alfa Pribor",
         "body": [
           "Access control system components:",
           "Desktop client  (PyQT, Python2.7)",
-          "Backend server (Django, PostgreSQL django-rest, docker)",
-          "Web application (ASP.Net MVC, JQuery, Firebird SQL, IIS)"
+          "Backend server (Django, PostgreSQL, Django REST Framework, Docker)",
+          "Web application (ASP.NET MVC, jQuery, Firebird SQL, IIS)"
         ],
-        "date": "august 2016 – november 2018",
+  "date": "August 2016 – November 2018",
         "stack": [
           "Python",
           "Django",
@@ -360,15 +370,16 @@
           "C++"
         ],
         "position": "",
-        "title": "Fullstack development engineer"
+  "title": "Fullstack Development Engineer"
       },
       {
+        "company": "Developer Express, Inc.",
         "body": [
-          ".NET UI controls development. (.NET, WPF, WinForms)",
-          "Mainly domains: maps, charts and diagrams",
-          "Tech support (mostly US customers)"
+          ".NET UI controls development (WPF, WinForms)",
+          "Main domains: maps, charts, and diagrams",
+          "Provided technical support (mostly US customers)"
         ],
-        "date": "may 2015 – july 2016",
+  "date": "May 2015 – July 2016",
         "stack": [
           ".NET",
           "C#",
@@ -379,16 +390,17 @@
           "SOAP"
         ],
         "position": "",
-        "title": "Software development engineer"
+  "title": "Software Development Engineer"
       },
       {
+        "company": "Freelance / Various companies",
         "body": [
           "Example of enterprise projects, developed all alone for internal usage:",
           "Macros, plugins and applications for CAD-system Tekla Structures using TeklaStructures API and .Net platform.",
-          "Internal time managment system. Gathering, processing and easy representation of information about the employees, delays, premium, payment, etc.",
-          "Steel resources managment system. Various calculation for optimal using, wasting and recycling metal"
+          "Internal time management system. Gathering, processing, and user-friendly representation of information about employees, delays, premiums, payments, etc.",
+          "Steel resources management system. Various calculations for optimal use, waste minimization, and recycling of metal"
         ],
-        "date": "august 2013 – april 2015",
+  "date": "August 2013 – April 2015",
         "stack": [
           ".NET",
           "C#",

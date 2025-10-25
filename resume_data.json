@@ -1,0 +1,220 @@
+{
+  "en": {
+    "name": "Anton Karmanov",
+    "title": "Backend/AI Engineer with 12+ years of experience, specializing in LLM/RAG systems and automation.",
+    "contact": {
+      "email": "whereismyguts@gmail.com",
+      "github": "github.com/whereismyguts",
+      "telegram": "@aa_karmanov"
+    },
+    "sections": {
+      "stack_title": "Technology Stack",
+      "stack": "Python • React Native • C# • PostgreSQL • MongoDB • Docker • nginx",
+      "experience_title": "Work Experience",
+      "education_title": "Education",
+      "languages_title": "Languages"
+    },
+    "experience": [
+      {
+        "position": "Backend Engineer",
+        "company": "AO Neiroseti",
+        "period": "April 2024 – Present",
+        "description": null,
+        "bullets": [
+          "Development and maintenance of Telegram bots for business automation and client management",
+          "API integration with external services (Bitrix24, hh.ru, Outlook, Google API, OCR)",
+          "Business logic design for lead management, deal tracking, and notifications",
+          "OAuth2 authentication tools, calendar synchronization, and document text extraction",
+          "Code refactoring, test coverage improvement, and new feature implementation",
+          "Docker/Linux cloud infrastructure deployment and support",
+          "Technical documentation and release support"
+        ],
+        "stack": "Python, FastAPI, Telegram Bot API, Google API, Bitrix API, OAuth2, Docker, PostgreSQL"
+      },
+      {
+        "position": "Tech Lead Developer",
+        "company": "aitomaton",
+        "period": "January 2024 – Present",
+        "description": null,
+        "bullets": [
+          "Designed and built customer assistant chatbots, RAG systems, and chat/tooling systems",
+          "Deployed and integrated cloud services",
+          "Experimented with and tested various applicable capabilities of LLMs"
+        ],
+        "stack": "bash, python, llama-index, langchain, RAG, docker, MongoDB, antropic"
+      },
+      {
+        "position": "Backend Engineer",
+        "company": "QStudio.org — Boutique Digital Transformation Agency",
+        "period": "December 2018 – January 2024",
+        "description": null,
+        "bullets": [
+          "Developed back-end APIs",
+          "Managed cloud deployment and integration",
+          "Financial operations including crypto/fiat exchange",
+          "Provided technical support and front-end development",
+          "SMM automation, chatbots, web scraping",
+          "DevOps: Docker/Nginx",
+          "Performed data analysis and built reports"
+        ],
+        "stack": "Python 2, Python 3, TensorFlow, docker, nginx, MongoDB, tornado, fastapi"
+      },
+      {
+        "position": "Fullstack Development Engineer",
+        "company": "Alfa Pribor",
+        "period": "August 2016 – November 2018",
+        "description": "Access control system components:",
+        "bullets": [
+          "Desktop client (PyQT, Python2.7)",
+          "Backend server (Django, PostgreSQL, Django REST Framework, Docker)",
+          "Web application (ASP.NET MVC, jQuery, Firebird SQL, IIS)"
+        ],
+        "stack": "Python, Django, .NET, C#, REST, PostgreSQL, FirebirdSQL, git"
+      },
+      {
+        "position": "Software Development Engineer",
+        "company": "Developer Express, Inc.",
+        "period": "May 2015 – July 2016",
+        "description": null,
+        "bullets": [
+          ".NET UI controls development (WPF, WinForms)",
+          "Main domains: maps, charts, and diagrams",
+          "Provided technical support (mostly US customers)"
+        ],
+        "stack": ".NET, C#, WinForms, WPF, REST, git, SOAP"
+      },
+      {
+        "position": "Software Development Engineer / CAD Engineer",
+        "company": "Freelance / Various Companies",
+        "period": "August 2013 – April 2015",
+        "description": "Example of enterprise projects, developed all alone for internal usage:",
+        "bullets": [
+          "Macros, plugins and applications for CAD-system Tekla Structures using TeklaStructures API and .Net platform",
+          "Internal time management system. Gathering, processing, and user-friendly representation of information about employees, delays, premiums, payments, etc.",
+          "Steel resources management system. Various calculations for optimal use, waste minimization, and recycling of metal"
+        ],
+        "stack": ".NET, C#, WinForms, TeklaStructures, MS Access SQL"
+      }
+    ],
+    "education": [
+      {
+        "period": "2008–2012",
+        "institution": "Tula State University",
+        "degree": "CAD Engineer"
+      }
+    ],
+    "languages": [
+      { "language": "English", "level": "B1" },
+      { "language": "Russian", "level": "Native" }
+    ]
+  },
+  "ru": {
+    "name": "Антон Карманов",
+    "title": "Backend/AI инженер с опытом работы более 12 лет, специализируется на LLM/RAG системах и автоматизации.",
+    "contact": {
+      "email": "whereismyguts@gmail.com",
+      "github": "github.com/whereismyguts",
+      "telegram": "@aa_karmanov"
+    },
+    "sections": {
+      "stack_title": "Технологический стек",
+      "stack": "Python • React Native • C# • PostgreSQL • MongoDB • Docker • nginx",
+      "experience_title": "Опыт работы",
+      "education_title": "Образование",
+      "languages_title": "Языки"
+    },
+    "experience": [
+      {
+        "position": "Backend-инженер",
+        "company": "АО Нейросети",
+        "period": "С апреля 2024",
+        "description": null,
+        "bullets": [
+          "Разработка и поддержка Telegram-ботов для автоматизации бизнес-процессов и управления клиентами",
+          "Интеграция API с внешними сервисами (Bitrix24, hh.ru, Outlook, Google API, OCR)",
+          "Проектирование бизнес-логики для управления лидами, отслеживания сделок и уведомлений",
+          "Инструменты OAuth2-аутентификации, синхронизация календарей и извлечение текста из документов",
+          "Рефакторинг кода, улучшение покрытия тестами и внедрение новых функций",
+          "Развертывание и поддержка облачной инфраструктуры Docker/Linux",
+          "Техническая документация и поддержка релизов"
+        ],
+        "stack": "Python, FastAPI, Telegram Bot API, Google API, Bitrix API, OAuth2, Docker, PostgreSQL"
+      },
+      {
+        "position": "Технический руководитель разработки",
+        "company": "aitomaton",
+        "period": "С января 2024",
+        "description": null,
+        "bullets": [
+          "Проектирование и разработка чат-ботов для клиентской поддержки, RAG-систем, чат-систем и инструментальных систем",
+          "Развертывание и интеграция облачных сервисов",
+          "Экспериментирование и тестирование различных применимых возможностей LLM"
+        ],
+        "stack": "bash, python, llama-index, langchain, RAG, docker, MongoDB, antropic"
+      },
+      {
+        "position": "Backend-инженер",
+        "company": "QStudio.org — Boutique Digital Transformation Agency",
+        "period": "Декабрь 2018 – Январь 2024",
+        "description": null,
+        "bullets": [
+          "Разработка backend API",
+          "Управление облачным развертыванием и интеграцией",
+          "Финансовые операции, включая обмен криптовалюты/фиатных валют",
+          "Техническая поддержка и frontend-разработка",
+          "Автоматизация SMM, чат-боты, веб-скрапинг",
+          "DevOps: Docker/Nginx",
+          "Анализ данных и создание отчетов"
+        ],
+        "stack": "Python 2, Python 3, TensorFlow, docker, nginx, MongoDB, tornado, fastapi"
+      },
+      {
+        "position": "Fullstack-инженер",
+        "company": "Альфа Прибор",
+        "period": "Август 2016 – Ноябрь 2018",
+        "description": "Компоненты системы контроля доступа:",
+        "bullets": [
+          "Десктопный клиент (PyQT, Python2.7)",
+          "Backend-сервер (Django, PostgreSQL, Django REST Framework, Docker)",
+          "Веб-приложение (ASP.NET MVC, jQuery, Firebird SQL, IIS)"
+        ],
+        "stack": "Python, Django, .NET, C#, REST, PostgreSQL, FirebirdSQL, git"
+      },
+      {
+        "position": "Инженер-разработчик ПО",
+        "company": "Developer Express, Inc.",
+        "period": "Май 2015 – Июль 2016",
+        "description": null,
+        "bullets": [
+          "Разработка UI-контролов для .NET (WPF, WinForms)",
+          "Основные направления: карты, графики и диаграммы",
+          "Техническая поддержка (преимущественно клиенты из США)"
+        ],
+        "stack": ".NET, C#, WinForms, WPF, REST, git, SOAP"
+      },
+      {
+        "position": "Инженер-разработчик ПО / CAD-инженер",
+        "company": "Фриланс / Различные компании",
+        "period": "Август 2013 – Апрель 2015",
+        "description": "Примеры корпоративных проектов, разработанных самостоятельно для внутреннего использования:",
+        "bullets": [
+          "Макросы, плагины и приложения для CAD-системы Tekla Structures с использованием TeklaStructures API и платформы .Net",
+          "Внутренняя система управления рабочим временем. Сбор, обработка и удобное представление информации о сотрудниках, задержках, премиях, выплатах и т.д.",
+          "Система управления стальными ресурсами. Различные расчеты для оптимального использования, минимизации отходов и переработки металла"
+        ],
+        "stack": ".NET, C#, WinForms, TeklaStructures, MS Access SQL"
+      }
+    ],
+    "education": [
+      {
+        "period": "2008–2012",
+        "institution": "Тульский государственный университет",
+        "degree": "Инженер САПР"
+      }
+    ],
+    "languages": [
+      { "language": "Английский", "level": "B1" },
+      { "language": "Русский", "level": "Родной" }
+    ]
+  }
+}
